@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>薩泰爾娛樂 STR Network</title>
+<style>body { margin: 0; background: #000; color: #f2f0eb; font-family: system-ui, sans-serif; } a { color: #ffcf1a; }</style>
+<script>
+  // The site's front door is the About page. Old links to the enquiry form, FAQ or a
+  // section of the catalogue (index.html#inquiry, ?obj=…) are forwarded to catalogue.html.
+  (function () {
+    var hash = location.hash, query = location.search;
+    var toCatalogue = /^#(inquiry|guide|catalogue|series|specials|t=)/.test(hash) || /[?&]obj=/.test(query);
+    var target = toCatalogue ? "catalogue.html" + query + (hash === "#catalogue" ? "#specials" : hash) : "about.html" + query + hash;
+    location.replace(target);
+  })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=about.html"></noscript>
+</head>
+<body>
+<p style="padding:24px"><a href="about.html">STR Network →</a></p>
+</body>
+</html>
