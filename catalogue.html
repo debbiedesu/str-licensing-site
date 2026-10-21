@@ -101,24 +101,14 @@
   .tile .k::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--sc); }
   .tile .nm { font-size: 15px; font-weight: 700; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .tile .who { font-size: 12.5px; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+  .tile .aw { font-size: 12.5px; font-weight: 800; color: var(--accent); }
   .tile .info { margin-top: auto; padding-top: 6px; font-size: 12.5px; color: var(--ink-3); display: flex; justify-content: space-between; gap: 8px; }
   .tile .chk { position: absolute; top: 10px; right: 10px; z-index: 2; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); display: none; place-items: center; font-weight: 900; font-size: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
   .tile.sel .chk { display: grid; }
   .tile.sel { box-shadow: 0 0 0 2px var(--accent); }
   .tile .ag { position: absolute; top: 10px; left: 10px; z-index: 2; font-size: 10.5px; background: rgba(0,0,0,.65); color: #fff; padding: 1px 8px; border-radius: 99px; }
 
-  /* Series cards */
-  .progs { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; }
-  .prog { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
-  .prog .top { background: var(--raised); color: #fff; padding: 20px 22px 18px; }
-  .prog .pcover { aspect-ratio: 16 / 9; overflow: hidden; background: var(--raised); }
-  .prog .pcover img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .prog .kicker { color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: 2px; }
-  .prog h3 { margin: 4px 0 0; font-size: 24px; font-weight: 900; line-height: 1.2; }
-  .prog .alt { color: #9a9a9a; font-size: 13px; }
-  .prog .info { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-top: 10px; font-size: 12.5px; color: var(--ink-3); }
-  .prog .body { padding: 16px 22px 20px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
-  .prog p { margin: 0; color: var(--ink-2); font-size: 14px; white-space: pre-line; }
+  /* Award line and tags (detail dialog) */
   .award { display: block; color: var(--accent); font-weight: 800; margin-bottom: 8px; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tags span { font-size: 12px; border: 1px solid var(--line); background: var(--paper); border-radius: 4px; padding: 1px 8px; color: var(--ink-2); }
@@ -155,8 +145,6 @@
   .clip.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
   .clip.on::before { color: var(--accent-ink); }
   .pv { position: absolute; right: 10px; bottom: 10px; z-index: 1; font-size: 11.5px; font-weight: 700; background: rgba(0,0,0,.7); color: #fff; padding: 2px 9px; border-radius: 99px; }
-  .play-btn { border: 1.5px solid var(--line); background: var(--paper); border-radius: 8px; padding: 9px; cursor: pointer; font-weight: 700; width: 100%; }
-  .play-btn:hover { border-color: var(--ink); }
 
   /* Enquiry form */
   .form-shell { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); display: grid; grid-template-columns: 1fr 1.25fr; }
@@ -259,7 +247,6 @@
     .logo .sub { display: none; }
     .logo-img { height: 20px; }
     .tiles { grid-template-columns: 1fr; }
-    .progs { grid-template-columns: 1fr; }
     .inq-pill .lbl { display: none; }
     .row { grid-template-columns: 1fr; }
     .obj-grid { grid-template-columns: 1fr; }
@@ -274,8 +261,8 @@
     <nav class="main" id="mainNav">
       <a href="about.html" data-i18n="navAbout">關於我們</a>
       <a href="#top" class="cur" data-i18n="navAll">片單總覽</a>
-      <a href="#specials" data-i18n="navCatalogue">現場喜劇</a>
       <a href="#series" data-i18n="navSeries">節目系列</a>
+      <a href="#specials" data-i18n="navCatalogue">現場喜劇</a>
       <a href="#inquiry" data-i18n="navInquiry">合作詢問</a>
       <a href="#guide" data-i18n="navFaq">常見問題</a>
     </nav>
@@ -294,7 +281,7 @@
     <div class="hero">
       <h1 data-i18n="h1">片單總覽</h1>
       <div class="en-sub">STR NETWORK · CONTENT CATALOGUE</div>
-      <p data-i18n="heroP">目前可授權的薩泰爾娛樂內容一覽：現場喜劇與節目系列。點選節目可查看介紹，並加入詢問清單。</p>
+      <p data-i18n="heroP">目前可授權的薩泰爾娛樂內容一覽：節目系列與現場喜劇。點選節目可查看介紹，並加入詢問清單。</p>
       <div class="stats">
         <div><strong id="statHours">0</strong><span data-i18n="statHours">小時可授權內容</span></div>
         <div><strong id="statEps">0</strong><span data-i18n="statEps">集系列節目</span></div>
@@ -308,23 +295,23 @@
     <div class="wrap" id="tabs"></div>
   </nav>
 
-  <section class="block" id="specials">
-    <div class="wrap">
-      <div class="sec-title"><h2 data-i18n="secSpecials">現場喜劇</h2><small>LIVE COMEDY SHOWS</small></div>
-      <p class="sec-lead" data-i18n="leadSpecials">完整長度的單口喜劇、吐槽大會與拼盤秀，適合串流平台、電視與機上娛樂播出。</p>
-      <div class="search-row">
-        <input class="search" id="search" type="search" data-ph="search" autocomplete="off">
-        <span class="search-count" id="searchCount"></span>
-      </div>
-      <div id="groups"></div>
-    </div>
-  </section>
-
   <section class="block" id="series">
     <div class="wrap">
       <div class="sec-title"><h2 data-i18n="secSeries">節目系列</h2><small>SERIES &amp; PODCAST</small></div>
       <p class="sec-lead" data-i18n="leadSeries">薩泰爾自製的系列節目，可依集數挑選授權。</p>
-      <div class="progs" id="seriesList"></div>
+      <div class="search-row">
+        <input class="search" id="search" type="search" data-ph="search" autocomplete="off">
+        <span class="search-count" id="searchCount"></span>
+      </div>
+      <div class="tiles" id="seriesList"></div>
+    </div>
+  </section>
+
+  <section class="block" id="specials">
+    <div class="wrap">
+      <div class="sec-title"><h2 data-i18n="secSpecials">現場喜劇</h2><small>LIVE COMEDY SHOWS</small></div>
+      <p class="sec-lead" data-i18n="leadSpecials">完整長度的單口喜劇、吐槽大會與拼盤秀，適合串流平台、電視與機上娛樂播出。</p>
+      <div id="groups"></div>
     </div>
   </section>
 
@@ -508,7 +495,7 @@ const I18N = {
   zh: {
     copyright: "© 薩泰爾娛樂股份有限公司 STR Network", brandSub: "內容授權", navAbout: "關於我們", navAll: "片單總覽", navCatalogue: "現場喜劇", navSeries: "節目系列", navInquiry: "合作詢問", navFaq: "常見問題", pill: "詢問清單",
     home: "關於我們", crumb: "片單總覽", h1: "片單總覽",
-    heroP: "目前可授權的薩泰爾娛樂內容一覽：現場喜劇與節目系列。點選節目可查看介紹，並加入詢問清單。",
+    heroP: "目前可授權的薩泰爾娛樂內容一覽：節目系列與現場喜劇。點選節目可查看介紹，並加入詢問清單。",
     statHours: "小時可授權內容", statEps: "集系列節目", statAwardVal: "金鐘獲獎", statAward: "《博音》2026 廣播金鐘獎 生活風格節目獎", statWorldVal: "全球", statWorld: "授權地區",
     secSpecials: "現場喜劇", secSeries: "節目系列",
     leadSpecials: "完整長度的單口喜劇、吐槽大會與拼盤秀，適合串流平台、電視與機上娛樂播出。",
@@ -522,7 +509,7 @@ const I18N = {
   en: {
     copyright: "© STR Network", brandSub: "Content Licensing", navAbout: "About", navAll: "Catalogue", navCatalogue: "Live Comedy", navSeries: "Series", navInquiry: "Enquiry", navFaq: "FAQ", pill: "Enquiry list",
     home: "About", crumb: "Catalogue", h1: "Content Catalogue",
-    heroP: "Everything STR Network currently has available for licensing: live comedy shows and original series. Open any title for details and add it to your enquiry.",
+    heroP: "Everything STR Network currently has available for licensing: original series and live comedy shows. Open any title for details and add it to your enquiry.",
     statHours: "hours of licensable content", statEps: "series episodes", statAwardVal: "Golden Bell", statAward: "2026 winner, Lifestyle Program – The Boring Podcast", statWorldVal: "Worldwide", statWorld: "rights available",
     secSpecials: "Live Comedy Shows", secSeries: "Series",
     leadSpecials: "Full-length stand-up specials, roasts and showcases — ready for streaming, TV and in-flight.",
@@ -568,8 +555,8 @@ function renderStatic() {
   $("#statEps").textContent = hs.episodes;
   const series = SHOWS.filter(x => x.group === "series");
   $("#tabs").innerHTML = [
-    ["specials", t("secSpecials"), TITLES.length],
     ["series", t("secSeries"), series.length],
+    ["specials", t("secSpecials"), TITLES.length],
     ["inquiry", t("navInquiry"), ""],
   ].map(([id, label, n]) => `<a href="#${id}" data-tab="${id}">${esc(label)}${n !== "" ? `<small>${n}</small>` : ""}</a>`).join("");
   $("#guideList").innerHTML = GUIDE[lang].map(g => `<li>${esc(g)}</li>`).join("");
@@ -631,22 +618,23 @@ function tileHTML(x) {
 
 function progHTML(x) {
   const added = selected.has(x.id);
-  // Same small info row as the live comedy cards: years on the left, episodes / length on the right.
-  const right = x.counts.map(([n, zh, en]) => `${n} ${lang === "en" ? en : zh}`);
-  if (x.avg) right.push(`${x.avg} ${t("avgMin")}`);
-  return `<article class="prog">
-    ${x.cover ? `<div class="pcover">${coverImg(x)}</div>` : ""}
-    <div class="top">
-      <div class="kicker">${esc(x.kicker[lang === "zh" ? 0 : 1])}</div>
-      <h3>${esc(L(x.zh, x.en))}</h3>
-      <div class="alt">${esc(lang === "en" ? x.zh : x.en)}</div>
-      <div class="info"><span>${esc(x.years || "")}</span><span>${esc(right.join(" · "))}</span></div>
-    </div>
-    <div class="body">
-      <p>${awardHTML(x, lang)}${esc(L(x.dzh, x.den))}</p>
-      ${x.tags && x.tags.length ? `<div class="tags">${x.tags.map(g => `<span>${esc(g)}</span>`).join("")}</div>` : ""}
-      ${x.trailers && x.trailers.length ? `<button type="button" class="play-btn" data-open="${x.id}">${t("seePreview")}</button>` : ""}
-      <button type="button" class="add ${added ? "added" : ""}" data-add="${x.id}">${added ? t("added") : t("add")}</button>
+  const hasClips = x.trailers && x.trailers.length;
+  // Same tile as the live comedy cards; the full description opens in the detail dialog.
+  return `<article class="tile ${added ? "sel" : ""}" style="--sc:var(--accent)">
+    <button type="button" class="tile-open" data-open="${x.id}">
+      <div class="cover">${coverImg(x)}</div>
+      <div class="txt">
+        <div class="k">${esc(x.kicker[lang === "zh" ? 0 : 1])}</div>
+        <div class="nm">${esc(L(x.zh, x.en))}</div>
+        <div class="who">${esc(lang === "en" ? x.zh : x.en)}</div>
+        ${x.award ? `<div class="aw">${esc(x.award[lang === "zh" ? 0 : 1])}</div>` : ""}
+        <div class="info"><span>${esc(x.years || "")}</span><span>${x.counts[0][0]} ${t("eps")}</span></div>
+      </div>
+    </button>
+    <span class="chk" aria-hidden="true">✓</span>
+    <div class="tile-actions">
+      ${hasClips ? `<button type="button" class="pv-btn" data-open="${x.id}" data-autoplay>${t("seePreview")}</button>` : ""}
+      <button type="button" class="add ${added ? "added" : ""}" data-add="${x.id}">${added ? t("addedShort") : t("addShort")}</button>
     </div>
   </article>`;
 }
