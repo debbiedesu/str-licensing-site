@@ -838,7 +838,7 @@ const SHOWS = [
     "zh": "夜夜秀",
     "en": "The Night Night Show",
     "kicker": [
-      "脫口秀節目",
+      "喜劇綜藝",
       "LATE-NIGHT TALK SHOW"
     ],
     "years": "2018–2025",
