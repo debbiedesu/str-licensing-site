@@ -119,6 +119,7 @@
   .prog .info { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-top: 10px; font-size: 12.5px; color: var(--ink-3); }
   .prog .body { padding: 16px 22px 20px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
   .prog p { margin: 0; color: var(--ink-2); font-size: 14px; white-space: pre-line; }
+  .award { display: block; color: var(--accent); font-weight: 800; margin-bottom: 8px; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tags span { font-size: 12px; border: 1px solid var(--line); background: var(--paper); border-radius: 4px; padding: 1px 8px; color: var(--ink-2); }
   .add { width: 100%; border: 1.5px solid var(--ink); background: var(--card); border-radius: 8px; padding: 9px; cursor: pointer; font-weight: 700; margin-top: auto; }
@@ -459,7 +460,7 @@
 </dialog>
 
 <script src="config.js?v=6"></script>
-<script src="data.js?v=26"></script>
+<script src="data.js?v=27"></script>
 <script>
 const PURPOSES = [
   ["svod", "SVOD 訂閱制串流", "SVOD (subscription streaming)", "", ""],
@@ -642,13 +643,16 @@ function progHTML(x) {
       <div class="info"><span>${esc(x.years || "")}</span><span>${esc(right.join(" · "))}</span></div>
     </div>
     <div class="body">
-      <p>${esc(L(x.dzh, x.den))}</p>
+      <p>${awardHTML(x, lang)}${esc(L(x.dzh, x.den))}</p>
       ${x.tags && x.tags.length ? `<div class="tags">${x.tags.map(g => `<span>${esc(g)}</span>`).join("")}</div>` : ""}
       ${x.trailers && x.trailers.length ? `<button type="button" class="play-btn" data-open="${x.id}">${t("seePreview")}</button>` : ""}
       <button type="button" class="add ${added ? "added" : ""}" data-add="${x.id}">${added ? t("added") : t("add")}</button>
     </div>
   </article>`;
 }
+
+// Award line shown bold in the accent colour above a description.
+const awardHTML = (x, l) => x.award ? `<strong class="award">${esc(x.award[l === "zh" ? 0 : 1])}</strong>` : "";
 
 const matches = x => {
   const q = query.trim().toLowerCase();
@@ -711,8 +715,8 @@ function openDetail(id) {
       ${x.talent ? `<div class="cast">${t("cast")}${lang === "zh" ? "：" : ": "}${esc(x.talent)}</div>` : ""}
       ${hasClips ? `<div class="clips"><h4>${t("clips")}</h4><ol>${x.trailers.map((c, i) =>
         `<li><button type="button" class="clip ${i === 0 ? "on" : ""}" data-clip="${i}">${esc(clipLabel(c, i))}</button></li>`).join("")}</ol></div>` : ""}
-      <div class="desc">${esc(L(x.dzh, x.den))}</div>
-      ${second ? `<div class="desc-en">${esc(second)}</div>` : ""}
+      <div class="desc">${awardHTML(x, lang)}${esc(L(x.dzh, x.den))}</div>
+      ${second ? `<div class="desc-en">${awardHTML(x, "en")}${esc(second)}</div>` : ""}
     </div>
   </div>
   <button type="button" class="x" data-close aria-label="${esc(t("close"))}">✕</button>`;
