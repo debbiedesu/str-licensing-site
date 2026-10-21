@@ -109,6 +109,7 @@
   .tile .ag { position: absolute; top: 10px; left: 10px; z-index: 2; font-size: 10.5px; background: rgba(0,0,0,.65); color: #fff; padding: 1px 8px; border-radius: 99px; }
 
   /* Award line and tags (detail dialog) */
+  .dlg .note { font-size: 13.5px; color: var(--ink); border-left: 3px solid var(--accent); background: var(--raised); padding: 8px 12px; border-radius: 0 6px 6px 0; }
   .award { display: block; color: var(--accent); font-weight: 800; margin-bottom: 8px; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tags span { font-size: 12px; border: 1px solid var(--line); background: var(--paper); border-radius: 4px; padding: 1px 8px; color: var(--ink-2); }
@@ -447,7 +448,7 @@
 </dialog>
 
 <script src="config.js?v=6"></script>
-<script src="data.js?v=28"></script>
+<script src="data.js?v=29"></script>
 <script>
 const PURPOSES = [
   ["svod", "SVOD 訂閱制串流", "SVOD (subscription streaming)", "", ""],
@@ -700,6 +701,7 @@ function openDetail(id) {
       <h3>${esc(L(x.zh, x.en))}</h3>
       ${alt ? `<div class="alt">${esc(alt)}</div>` : ""}
       <div class="meta">${meta.filter(Boolean).map(m => `<span>${esc(m)}</span>`).join("")}</div>
+      ${x.note ? `<div class="note">${esc(L(x.note[0], x.note[1]))}</div>` : ""}
       ${x.talent ? `<div class="cast">${t("cast")}${lang === "zh" ? "：" : ": "}${esc(x.talent)}</div>` : ""}
       ${hasClips ? `<div class="clips"><h4>${t("clips")}</h4><ol>${x.trailers.map((c, i) =>
         `<li><button type="button" class="clip ${i === 0 ? "on" : ""}" data-clip="${i}">${esc(clipLabel(c, i))}</button></li>`).join("")}</ol></div>` : ""}
