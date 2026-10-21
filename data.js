@@ -744,50 +744,6 @@ const TITLES = [
 
 const SHOWS = [
   {
-    "id": "saturday",
-    "group": "series",
-    "zh": "星期六晚上",
-    "en": "Saturday Night Night",
-    "kicker": [
-      "喜劇綜藝",
-      "SKETCH COMEDY VARIETY"
-    ],
-    "years": "2026",
-    "counts": [
-      [
-        "10",
-        "集",
-        "episodes"
-      ]
-    ],
-    "avg": 50,
-    "tags": [],
-    "dzh": "如果說夜夜秀是美式喜劇理性批判的一面，星期六晚上就是美式喜劇感性輕鬆的一面。\n致敬1975年開始至今已連載逾50季的經典美式喜劇綜藝節目「週六夜現場」(Saturday Night Live, SNL)，星期六晚上並沒有單一主打的主持人，而是每一集與一至兩名大來賓合作，圍繞其設計角色並進行諸如單口、短劇、音樂、遊戲、訪談等企劃。",
-    "den": "If The Night Night Show represents the rational, critical side of American-style comedy, then Saturday Night Night is its warmer, more lighthearted counterpart.\nA tribute to Saturday Night Live (SNL)—the iconic American sketch comedy series that has run for over 50 seasons since 1975—Saturday Night Night has no single resident host. Instead, each episode is built around one or two major guests, developing original characters for them across a range of segments including stand-up, sketches, musical numbers, games, and interviews.",
-    "producer": {
-      "zh": "謝政豪",
-      "en": "Hauer Hsieh"
-    },
-    "trailers": [
-      {
-        "label": "播客死透",
-        "yt": "r2Kn3CcJtdQ",
-        "start": 0
-      },
-      {
-        "label": "鑽石好歌聲",
-        "yt": "tioAvlcPh0Y",
-        "start": 0
-      },
-      {
-        "label": "雷答",
-        "yt": "7WDadKYgkcA",
-        "start": 0
-      }
-    ],
-    "cover": "images/saturday.jpg"
-  },
-  {
     "id": "boring",
     "group": "series",
     "zh": "博音",
@@ -830,6 +786,50 @@ const SHOWS = [
       }
     ],
     "cover": "images/boring.jpg"
+  },
+  {
+    "id": "saturday",
+    "group": "series",
+    "zh": "星期六晚上",
+    "en": "Saturday Night Night",
+    "kicker": [
+      "喜劇綜藝",
+      "SKETCH COMEDY VARIETY"
+    ],
+    "years": "2026",
+    "counts": [
+      [
+        "10",
+        "集",
+        "episodes"
+      ]
+    ],
+    "avg": 50,
+    "tags": [],
+    "dzh": "如果說夜夜秀是美式喜劇理性批判的一面，星期六晚上就是美式喜劇感性輕鬆的一面。\n致敬1975年開始至今已連載逾50季的經典美式喜劇綜藝節目「週六夜現場」(Saturday Night Live, SNL)，星期六晚上並沒有單一主打的主持人，而是每一集與一至兩名大來賓合作，圍繞其設計角色並進行諸如單口、短劇、音樂、遊戲、訪談等企劃。",
+    "den": "If The Night Night Show represents the rational, critical side of American-style comedy, then Saturday Night Night is its warmer, more lighthearted counterpart.\nA tribute to Saturday Night Live (SNL)—the iconic American sketch comedy series that has run for over 50 seasons since 1975—Saturday Night Night has no single resident host. Instead, each episode is built around one or two major guests, developing original characters for them across a range of segments including stand-up, sketches, musical numbers, games, and interviews.",
+    "producer": {
+      "zh": "謝政豪",
+      "en": "Hauer Hsieh"
+    },
+    "trailers": [
+      {
+        "label": "播客死透",
+        "yt": "r2Kn3CcJtdQ",
+        "start": 0
+      },
+      {
+        "label": "鑽石好歌聲",
+        "yt": "tioAvlcPh0Y",
+        "start": 0
+      },
+      {
+        "label": "雷答",
+        "yt": "7WDadKYgkcA",
+        "start": 0
+      }
+    ],
+    "cover": "images/saturday.jpg"
   },
   {
     "id": "nightnight",
