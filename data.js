@@ -761,7 +761,7 @@ const SHOWS = [
       ]
     ],
     "tags": [],
-    "note": ["除 Podcast 音檔，本節目另有影像版可供授權。", "In addition to the podcast audio, a video version of this show is available for licensing."],
+    "note": ["除 Podcast 音檔，本節目另有影像版可供授權。", "In addition to the podcast audio, video version of this show is available for licensing."],
     "award": ["2026 年廣播金鐘獎：生活風格節目獎", "Golden Bell Awards 2026 – Podcast: Lifestyle Program Winner"],
     "dzh": "《博音》觀察閱聽眾在生活中會反覆出現的疑問、困惑，甚至障礙，進而邀訪該領域專家，用平易近人的口語，並具備思辨層次的對話，設計單集內容架構。嘗試透過與專業人士的討論，提供聽眾解方或另一種審視角度。",
     "den": "The Boring Podcast is a podcast hosted by Brian Tseng that explores puzzles that everyone runs into— work, health, relationships, cutting-edge technology, and how to make sense of the world.\n\nEach episode brings in experts from different fields for thoughtful, down-to-earth conversations that don’t just explain ideas, but actually help you think differently about life.",
