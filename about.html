@@ -115,6 +115,7 @@
   .works .txt { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 3px; }
   .works .kind { font-size: 11.5px; font-weight: 700; color: var(--accent); letter-spacing: 1px; }
   .works .nm { font-size: 15px; font-weight: 700; line-height: 1.4; }
+  .works .aw { font-size: 12.5px; font-weight: 800; color: var(--accent); line-height: 1.4; }
   .works .info { font-size: 12.5px; color: var(--ink-3); }
   .more-link { display: inline-block; margin-top: 14px; color: var(--accent); text-decoration: none; font-weight: 700; }
 
@@ -435,7 +436,7 @@ function render() {
     const info = isShow ? `${x.years} · ${x.counts[0][0]} ${t("eps")}` : `${x.y} · ${x.min} ${t("min")}`;
     return `<a href="catalogue.html#t=${x.id}">
       <div class="pic"><span class="ph">${esc(name)}</span>${src ? `<img src="${src}" alt="" loading="lazy" onerror="this.remove()">` : ""}</div>
-      <div class="txt"><span class="kind">${t(isShow ? "kindSeries" : "kindSpecial")}</span><span class="nm">${esc(name)}</span><span class="info">${esc(info)}</span></div>
+      <div class="txt"><span class="kind">${t(isShow ? "kindSeries" : "kindSpecial")}</span><span class="nm">${esc(name)}</span>${x.award ? `<span class="aw">${esc(L(x.award[0], x.award[1]))}</span>` : ""}<span class="info">${esc(info)}</span></div>
     </a>`;
   }).join("");
 
