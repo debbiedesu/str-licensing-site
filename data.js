@@ -795,8 +795,8 @@ const SHOWS = [
     "zh": "星期六晚上",
     "en": "Saturday Night Night",
     "kicker": [
-      "喜劇綜藝",
-      "COMEDY VARIETY SHOW"
+      "Variety Show",
+      "VARIETY SHOW"
     ],
     "years": "2026",
     "counts": [
@@ -839,8 +839,8 @@ const SHOWS = [
     "zh": "夜夜秀",
     "en": "The Night Night Show",
     "kicker": [
-      "喜劇綜藝",
-      "COMEDY VARIETY SHOW"
+      "Variety Show",
+      "VARIETY SHOW"
     ],
     "years": "2018–2025",
     "counts": [
@@ -886,8 +886,8 @@ const SHOWS = [
     "zh": "狗屎寫手",
     "en": "Ghost Writer",
     "kicker": [
-      "喜劇綜藝",
-      "COMEDY VARIETY SHOW"
+      "Variety Show",
+      "VARIETY SHOW"
     ],
     "counts": [
       [
