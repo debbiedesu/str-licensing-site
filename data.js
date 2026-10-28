@@ -796,7 +796,7 @@ const SHOWS = [
     "en": "Saturday Night Night",
     "kicker": [
       "喜劇綜藝",
-      "SKETCH COMEDY VARIETY"
+      "COMEDY VARIETY SHOW"
     ],
     "years": "2026",
     "counts": [
@@ -840,7 +840,7 @@ const SHOWS = [
     "en": "The Night Night Show",
     "kicker": [
       "喜劇綜藝",
-      "LATE-NIGHT TALK SHOW"
+      "COMEDY VARIETY SHOW"
     ],
     "years": "2018–2025",
     "counts": [
@@ -887,7 +887,7 @@ const SHOWS = [
     "en": "Ghost Writer",
     "kicker": [
       "喜劇綜藝",
-      "COMEDY VARIETY"
+      "COMEDY VARIETY SHOW"
     ],
     "counts": [
       [
