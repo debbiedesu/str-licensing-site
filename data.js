@@ -749,8 +749,8 @@ const SHOWS = [
     "zh": "博音",
     "en": "The Boring Podcast",
     "kicker": [
-      "Podcast",
-      "PODCAST"
+      "Talk Show",
+      "TALK SHOW"
     ],
     "years": "2022–2026",
     "counts": [
