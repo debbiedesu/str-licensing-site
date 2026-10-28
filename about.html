@@ -6,7 +6,7 @@
 <title>關於我們 – 薩泰爾娛樂 STR Network</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
     color-scheme: dark;
@@ -25,6 +25,9 @@
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; scroll-padding-top: 70px; }
   body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Noto Sans TC", system-ui, -apple-system, "PingFang TC", sans-serif; font-size: 15px; line-height: 1.6; }
+  /* English text uses a Latin font first, so ’ “ ” — keep their normal width instead of the full-width CJK glyphs */
+  :lang(en) { font-family: "Noto Sans", "Noto Sans TC", system-ui, -apple-system, "PingFang TC", sans-serif; }
+  :lang(zh-Hant) { font-family: "Noto Sans TC", system-ui, -apple-system, "PingFang TC", sans-serif; }
   a { color: inherit; }
   button { font: inherit; color: inherit; }
   .wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
