@@ -71,7 +71,7 @@ const TITLES = [
       "Stand-up"
     ],
     "talent": "曾博恩",
-    "dzh": "有人說，博恩的表演不登大雅之堂\n他卻上過國家戲劇院、Comedy Central Asia、 TICC 與 北流\n\n有人說，喜劇養不起生活\n薩泰爾卻養起了三十幾人的生活\n\n有人說，直男不可能出飛機杯\n沒事。\n\n專挑不可能的事情來做\n2023 曾博恩將在新的巡迴中\n再次當不同層面的開路先鋒\n\n從來沒有人用中文舉辦過世界巡迴的 stand up 個人秀\n\n從來沒有人在小巨蛋講過喜劇專場\n\n從來沒有人在台上講到全裸\n而這次也不會。\n\n把不可能變成可能\n把零變成一（並非指飛機杯）\n的那個 破 蛋 者 來了\n\n有人說，臺灣喜劇離小巨蛋還早\n你們說呢？",
+    "dzh": "有人說，博恩的表演不登大雅之堂\n他卻上過國家戲劇院、Comedy Central Asia、TICC 與 北流\n\n有人說，喜劇養不起生活\n薩泰爾卻養起了三十幾人的生活\n\n有人說，直男不可能出飛機杯\n沒事。\n\n專挑不可能的事情來做\n2023 曾博恩將在新的巡迴中\n再次當不同層面的開路先鋒\n\n從來沒有人用中文舉辦過世界巡迴的 stand up 個人秀\n\n從來沒有人在小巨蛋講過喜劇專場\n\n從來沒有人在台上講到全裸\n而這次也不會。\n\n把不可能變成可能\n把零變成一（並非指飛機杯）\n的那個 破 蛋 者 來了\n\n有人說，臺灣喜劇離小巨蛋還早\n你們說呢？",
     "den": "Brian Tseng, a trailblazer in Taiwan's comedy scene, has performed everywhere from the National Theater, Comedy Central Asia, TICC, and Taipei Music Center, to now becoming the first stand-up comedian to take the stage at Taipei Arena.",
     "producer": {
       "zh": "林佳蒨",
@@ -94,8 +94,8 @@ const TITLES = [
     "id": "triplestandard",
     "s": "other",
     "y": 2022,
-    "zh": "曾博恩 有趣的演講!《三重標準》",
-    "en": "Triplestandard",
+    "zh": "曾博恩 有趣的演講！《三重標準》",
+    "en": "Triple Standard",
     "min": 67,
     "type": [
       "演講",
@@ -135,10 +135,10 @@ const TITLES = [
     "min": 101,
     "type": [
       "單口喜劇、音樂喜劇",
-      "Stand-up, Musical comedy"
+      "Stand-up, Musical Comedy"
     ],
     "talent": "曾博恩、STR Bros（賀瓏、老K、喬瑟夫 ChillSeph）、壞特 ?te、呂士軒、王彩樺、Julia 吳卓源",
-    "dzh": "曾博恩 2021 年度專場《雙聲道 BliveT》，TAIWAN從未有過的現場喜劇新體驗！\n結合單口喜劇（stand-up comedy）與音樂喜劇（musical comedy）的表演，跨界邀請王彩樺、呂士軒、 Julia 吳卓源、壞特 ?te 同台演唱，在《雙聲道 BliveT》一睹你從來沒有看過的曾博恩！",
+    "dzh": "曾博恩 2021 年度專場《雙聲道 BliveT》，TAIWAN從未有過的現場喜劇新體驗！\n結合單口喜劇（stand-up comedy）與音樂喜劇（musical comedy）的表演，跨界邀請王彩樺、呂士軒、Julia 吳卓源、壞特 ?te 同台演唱，在《雙聲道 BliveT》一睹你從來沒有看過的曾博恩！",
     "den": "“BliveT” arrives in full force! Brian Tseng breaks tradition by blending stand-up with musical comedy, delivering a one-of-a-kind comedic experience never before seen in Taiwan.",
     "producer": {
       "zh": "林佳蒨",
@@ -173,8 +173,8 @@ const TITLES = [
       "Stand-up"
     ],
     "talent": "喬瑟夫 ChillSeph、落日飛車 國國、Multiverse、蛋頭 BG8LOCC",
-    "dzh": "喬瑟夫首次個人單口喜劇專場\n從乏人問津到布丁飲食\n再到QQㄋㄟㄋㄟ什麼的\n\n起起落落的喜劇人生\n化作這場絢麗的生日派對\n\n拿好你的酒\n歡迎光臨\n\n一個憤世忌俗的革命軍\n爆紅後得意忘形的娛樂家\n滿口胡言卻鼓舞到你的大講師\n都是座上嘉賓\n\n當然國際級的樂團主唱、當紅的嘻哈饒舌歌手\n也都到場獻聲演出\n\n有酒、有笑、有荒唐、有淚\n醉著醉著就笑了\n笑著笑著就哭了",
-    "den": "Chillseph's first stand-up special turns his chaotic comedy life into a vivid birthday party, blending laughter, absurdity, and tears—drunk enough to laugh, laughing enough to cry.",
+    "dzh": "喬瑟夫首次個人單口喜劇專場\n從乏人問津到布丁飲食\n再到QQㄋㄟㄋㄟ什麼的\n\n起起落落的喜劇人生\n化作這場絢麗的生日派對\n\n拿好你的酒\n歡迎光臨\n\n一個憤世嫉俗的革命軍\n爆紅後得意忘形的娛樂家\n滿口胡言卻鼓舞到你的大講師\n都是座上嘉賓\n\n當然國際級的樂團主唱、當紅的嘻哈饒舌歌手\n也都到場獻聲演出\n\n有酒、有笑、有荒唐、有淚\n醉著醉著就笑了\n笑著笑著就哭了",
+    "den": "ChillSeph's first stand-up special turns his chaotic comedy life into a vivid birthday party, blending laughter, absurdity, and tears—drunk enough to laugh, laughing enough to cry.",
     "trailers": [
       {
         "label": "這是你的課題！｜#乾God｜喬瑟夫 ChillSeph",
@@ -200,7 +200,7 @@ const TITLES = [
       "Stand-up"
     ],
     "talent": "喬瑟夫 ChillSeph",
-    "dzh": "在疫情過後\n\n這世界好像沒什麼變好\n試圖保持善良\n但雞掰人總是太多\n還是讓我來吧\n\n讓我像料理河豚那樣\n處理那些棘手的題材\n剝下虛偽的社群正義\n大膽的取出最美味的部分\n試著不要毒死你們",
+    "dzh": "在疫情過後\n\n這世界好像沒什麼變好\n試圖保持善良\n但雞掰人總是太多\n還是讓我來吧\n\n讓我像料理河豚那樣\n處理那些棘手的題材\n剝下虛偽的社群正義\n大膽地取出最美味的部分\n試著不要毒死你們",
     "den": "After the pandemic, the world didn’t get better—just more jerks appeared. Let me peel back the fakery like preparing fugu, extract the essence, and try my best… not to kill you.",
     "trailers": [
       {
@@ -224,7 +224,7 @@ const TITLES = [
     "min": 69,
     "type": [
       "音樂喜劇",
-      "Musical comedy"
+      "Musical Comedy"
     ],
     "talent": "怡岑、日京江羽人",
     "agent": true,
@@ -247,7 +247,7 @@ const TITLES = [
     "min": 85,
     "type": [
       "音樂喜劇",
-      "Musical comedy"
+      "Musical Comedy"
     ],
     "talent": "怡岑",
     "dzh": "要到你想逃……\n這是一場你看完後就會起身離開的演唱會。\n不然？\n\n你以為你已經可以離開這裡，\n但你可能又要花一些時間才能逃離我的陷阱。\n\n是不是恨可以要到你想逃，\n愛也可以要到你想逃？\n\n那如果我們能夠相愛就沒事了。\n愛情、友情、親情，還有我和每個你。\n\n希望我們都不會輕易逃開，\n都能好好享受。\n\n但如果萬一我真的想逃的話，\n我會逃到舞台上，\n站著唱，大家笑，你也要笑。\n\n我只是希望你開心。",
@@ -464,7 +464,7 @@ const TITLES = [
     "id": "burn-brian",
     "s": "burn",
     "y": 2025,
-    "zh": "《炎上 BURN》－ 炎上　曾博恩",
+    "zh": "《炎上 BURN》－炎上　曾博恩",
     "en": "BURN: The Roast of Brian Tseng",
     "min": 137,
     "type": [
@@ -491,7 +491,7 @@ const TITLES = [
     "id": "burn-aaron",
     "s": "burn",
     "y": 2025,
-    "zh": "《炎上 BURN》－ 炎上　炎亞綸",
+    "zh": "《炎上 BURN》－炎上　炎亞綸",
     "en": "BURN: The Roast of Aaron Yan",
     "min": 109,
     "type": [
@@ -499,7 +499,7 @@ const TITLES = [
       "Roast"
     ],
     "talent": "炎亞綸、楊昇達、李玉璽、蕭東意、石知田、徐凱希、巫苡萱、江宏傑、黃豪平",
-    "dzh": "身份跨足歌手、演員、偶像、企業家—炎亞綸將登上《炎上 BURN》 舞台。\n從出道即巔峰的偶像光環，到私生活屢屢被放大檢視，行動自走砲炎亞綸面對大將軍及火伴們的炎刑拷打，究竟會亞口無言？還是在《炎上 BURN》 舞台上華麗反擊？",
+    "dzh": "身份跨足歌手、演員、偶像、企業家——炎亞綸將登上《炎上 BURN》舞台。\n從出道即巔峰的偶像光環，到私生活屢屢被放大檢視，行動自走砲炎亞綸面對大將軍及火伴們的炎刑拷打，究竟會亞口無言？還是在《炎上 BURN》舞台上華麗反擊？",
     "den": "Singer, actor, and outspoken public figure Aaron Yan takes the hot seat. From idol fame to a closely scrutinized personal life, he has long remained in the spotlight—this time, he faces the fire head-on.",
     "producer": {
       "zh": "廖子寧",
@@ -517,7 +517,7 @@ const TITLES = [
     "id": "burn-zhong",
     "s": "burn",
     "y": 2025,
-    "zh": "《炎上 BURN》－ 炎上　鍾明軒",
+    "zh": "《炎上 BURN》－炎上　鍾明軒",
     "en": "BURN: The Roast of Zhong Ming-Xuan",
     "min": 115,
     "type": [
@@ -543,7 +543,7 @@ const TITLES = [
     "id": "burn-tgop",
     "s": "burn",
     "y": 2024,
-    "zh": "《炎上 BURN》－ 炎上　這群人",
+    "zh": "《炎上 BURN》－炎上　這群人",
     "en": "BURN: The Roast of TGOP",
     "min": 110,
     "type": [
@@ -551,7 +551,7 @@ const TITLES = [
       "Roast"
     ],
     "talent": "這群人 TGOP（展榮、展瑞、茵聲、董仔、木星、尼克、石頭）、陳大天、唐從聖、鐵牛、黃小柔、楊昇達、酷炫、黃氏兄弟、莫宰羊、Green Father 比杰",
-    "dzh": "百萬 YouTuber 團體「這群人TGOP」\n停更前的終局之戰\n十三年來所有的恩怨情仇\n將在《炎上  BURN》一次全部算個清楚\n\n這場不留情面的告別式之後\n大家會是彼此祝福、各自安好\n還是永遠不回頭、秒刪你電話\n\n【炎上   這群人】\n一起來送他們最後一程",
+    "dzh": "百萬 YouTuber 團體「這群人 TGOP」\n停更前的終局之戰\n十三年來所有的恩怨情仇\n將在《炎上 BURN》一次全部算個清楚\n\n這場不留情面的告別式之後\n大家會是彼此祝福、各自安好\n還是永遠不回頭、秒刪你電話\n\n【炎上   這群人】\n一起來送他們最後一程",
     "den": "With over 3 million subscribers, one of Taiwan’s most influential YouTube groups—TGOP (This Group of People)—takes the hot seat. After more than a decade of content, fame, and internal tensions, they step into the spotlight together to settle everything—one joke at a time.",
     "producer": {
       "zh": "劉俊麟",
@@ -574,7 +574,7 @@ const TITLES = [
     "id": "burn-wang",
     "s": "burn",
     "y": 2023,
-    "zh": "《炎上 BURN》－ 炎上　王世堅",
+    "zh": "《炎上 BURN》－炎上　王世堅",
     "en": "BURN: The Roast of Wang Shih-Chien",
     "min": 77,
     "type": [
@@ -583,7 +583,7 @@ const TITLES = [
     ],
     "talent": "王世堅、曾博恩、謝龍介、黃瀞瑩、Asiaboy 禁藥王 & Lizi 栗子、凱莉、吳崢、賀瓏、巴大雄、春艷、柯文哲",
     "dzh": "政壇扶龍王世堅正面對決炎上大將軍及火伴的犀利質詢，經典問政攻防戰將在《炎上 BURN》一觸即發！\n政治人物只會作秀？沒錯！這次就作給你看！\n現場聚集各方人馬，即將掀起一場政壇腥風血雨\n\n《炎上 BURN》回歸，不留情面再探下限！\n\n演出者全員不得要求事先審稿\n允許脫稿！允許爆料！\n更不准有不能被講的地雷底線\n全盤托出檯面下的惡形惡狀\n\n史詩級質詢名場面\n即將在炎上獨家演繹\n\n【炎上　王世堅】\n南北菜蟲，一起串連！",
-    "den": "Politician Wang Shih-chien takes the hot seat. A household name in Taiwan and a frequent meme subject, he is known for his fiery interrogations and unmistakable presence. Now, the man known for questioning others becomes the one being questioned.",
+    "den": "Politician Wang Shih-Chien takes the hot seat. A household name in Taiwan and a frequent meme subject, he is known for his fiery interrogations and unmistakable presence. Now, the man known for questioning others becomes the one being questioned.",
     "producer": {
       "zh": "廖子寧",
       "en": "Tse Ning Liao"
@@ -605,7 +605,7 @@ const TITLES = [
     "id": "burn-rchord",
     "s": "burn",
     "y": 2022,
-    "zh": "《炎上 BURN》－ 炎上　謝和弦",
+    "zh": "《炎上 BURN》－炎上　謝和弦",
     "en": "BURN: The Roast of R-chord",
     "min": 89,
     "type": [
@@ -613,7 +613,7 @@ const TITLES = [
       "Roast"
     ],
     "talent": "謝和弦、賀瓏、呂士軒、Lizi 栗子、曾博恩、JIM 程建評、吳夢夢、奎丁、孫生、A/DA阿達",
-    "dzh": "敢說敢做的歌手謝和弦將如何面對來自炎上大將軍及火伴們的大麻煩？       \n你不能錯過這場火爆嗆辣的《炎上　謝和弦》",
+    "dzh": "敢說敢做的歌手謝和弦將如何面對來自炎上大將軍及火伴們的大麻煩？\n你不能錯過這場火爆嗆辣的《炎上　謝和弦》",
     "den": "Outspoken and unpredictable, singer R-chord steps into the fire. Known for controversy—including a past arrest in Taiwan for cannabis possession and his continued advocacy for legalization—he now faces it all head-on, with nothing held back.",
     "producer": {
       "zh": "謝政豪",
@@ -641,7 +641,7 @@ const TITLES = [
     "id": "burn-peng",
     "s": "burn",
     "y": 2022,
-    "zh": "《炎上 BURN》－ 炎上　澎恰恰",
+    "zh": "《炎上 BURN》－炎上　澎恰恰",
     "en": "BURN: The Roast of Peng Chia-Chia",
     "min": 86,
     "type": [
@@ -649,7 +649,7 @@ const TITLES = [
       "Roast"
     ],
     "talent": "澎恰恰、黃豪平、陳致遠、曾博恩、賀瓏、謝忻、美麗本人、黃逸豪、白雲、涵冷娜",
-    "dzh": "債務纏身的資深藝人澎恰恰面對炎上大將軍及火伴們的熗辣追討，這次澎哥撐得住嗎？",
+    "dzh": "債務纏身的資深藝人澎恰恰面對炎上大將軍及火伴們的嗆辣追討，這次澎哥撐得住嗎？",
     "den": "Veteran entertainer Peng Chia-Chia takes the hot seat. With financial struggles brought into the spotlight, this roast pushes beyond humor—testing the limits of laughter when nothing is off-limits.",
     "producer": {
       "zh": "謝政豪",
@@ -677,7 +677,7 @@ const TITLES = [
     "id": "burn-alisasa",
     "s": "burn",
     "y": 2022,
-    "zh": "《炎上 BURN》－ 炎上　愛莉莎莎",
+    "zh": "《炎上 BURN》－炎上　愛莉莎莎",
     "en": "BURN: The Roast of Alisasa",
     "min": 83,
     "type": [
@@ -708,7 +708,7 @@ const TITLES = [
     "id": "burn-hsu",
     "s": "burn",
     "y": 2021,
-    "zh": "《炎上 BURN》－ 炎上　徐乃麟",
+    "zh": "《炎上 BURN》－炎上　徐乃麟",
     "en": "BURN: The Roast of Hsu Nai-Lin",
     "min": 102,
     "type": [
@@ -755,7 +755,7 @@ const SHOWS = [
     "years": "2022–2026",
     "counts": [
       [
-        "60+",
+        "248+",
         "集",
         "episodes"
       ]
@@ -764,7 +764,7 @@ const SHOWS = [
     "note": ["除 Podcast 音檔，本節目另有影像版可供授權。", "In addition to the podcast audio, this show is also available for licensing in video."],
     "award": ["2026 年廣播金鐘獎：生活風格節目獎", "Golden Bell Awards 2026 – Podcast: Lifestyle Program Winner"],
     "dzh": "《博音》觀察閱聽眾在生活中會反覆出現的疑問、困惑，甚至障礙，進而邀訪該領域專家，用平易近人的口語，並具備思辨層次的對話，設計單集內容架構。嘗試透過與專業人士的討論，提供聽眾解方或另一種審視角度。",
-    "den": "The Boring Podcast is a podcast hosted by Brian Tseng that explores puzzles that everyone runs into— work, health, relationships, cutting-edge technology, and how to make sense of the world.\n\nEach episode brings in experts from different fields for thoughtful, down-to-earth conversations that don’t just explain ideas, but actually help you think differently about life.",
+    "den": "The Boring Podcast is a podcast hosted by Brian Tseng that explores puzzles that everyone runs into—work, health, relationships, cutting-edge technology, and how to make sense of the world.\n\nEach episode brings in experts from different fields for thoughtful, down-to-earth conversations that don’t just explain ideas, but actually help you think differently about life.",
     "avg": 48,
     "producer": {
       "zh": "月城南廣告股份有限公司",
@@ -981,7 +981,7 @@ const OBJECTIVES = [
 // "Let's talk if you…" prompts on the about page, each pre-selecting an objective on the form.
 const LETS_TALK = [
   { obj: "invest", zh: "想投資已經有觀眾買單的中文喜劇內容", en: "Want to invest in Mandarin comedy with a proven audience" },
-  { obj: "copro", zh: "有喜劇企劃，卻缺乏團隊或資金做出來", en: "Have a comedy idea but lack the team or funding to make it happen" },
+  { obj: "copro", zh: "有喜劇企劃，卻缺乏團隊或資金製作", en: "Have a comedy idea but lack the team or funding to make it happen" },
   { obj: "copro", zh: "想為品牌或平台打造一檔原創喜劇節目", en: "Want an original comedy show for your brand or platform" },
   { obj: "acq", zh: "想邀請喜劇演員到你的城市演出，或想在台灣舉辦演出", en: "Want to bring comedians to your city, or tour your show in Taiwan" },
   { obj: "acq", zh: "你的平台還缺一點笑聲", en: "Need more comedy on your platform" },
