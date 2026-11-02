@@ -150,7 +150,7 @@
   .clip.on::before { color: var(--accent-ink); }
   .pv { position: absolute; right: 10px; bottom: 10px; z-index: 1; font-size: 11.5px; font-weight: 700; background: rgba(0,0,0,.7); color: #fff; padding: 2px 9px; border-radius: 99px; }
 
-  /* Enquiry form */
+  /* Inquiry form */
   .form-shell { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); display: grid; grid-template-columns: 1fr 1.25fr; }
   .form-col { padding: 24px; }
   .obj-block { grid-column: 1 / -1; padding: 24px; border-bottom: 1px solid var(--line); }
@@ -224,7 +224,7 @@
   .search-count { font-size: 13px; color: var(--ink-3); }
   .empty { padding: 32px; text-align: center; color: var(--ink-3); border: 1px dashed var(--line); border-radius: var(--radius); }
 
-  /* Enquiry bar */
+  /* Inquiry bar */
   .enq-bar { position: fixed; left: 50%; bottom: 18px; transform: translate(-50%, 120px); transition: transform .25s; background: var(--raised); border: 1px solid var(--line); color: #fff; border-radius: 99px; padding: 8px 8px 8px 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.25); z-index: 30; max-width: calc(100% - 32px); }
   .enq-bar.show { transform: translate(-50%, 0); }
   .enq-bar span { font-size: 14px; white-space: nowrap; }
@@ -266,7 +266,7 @@
       <a href="about.html" data-i18n="navAbout">關於我們</a>
       <a href="#top" class="cur" data-i18n="navAll">片單總覽</a>
       <a href="#series" data-i18n="navSeries">節目</a>
-      <a href="#specials" data-i18n="navCatalogue">現場喜劇</a>
+      <a href="#specials" data-i18n="navCatalog">現場喜劇</a>
       <a href="#inquiry" data-i18n="navInquiry">合作詢問</a>
       <a href="#guide" data-i18n="navFaq">常見問題</a>
     </nav>
@@ -284,7 +284,7 @@
     <div class="crumb"><a href="about.html" data-i18n="home">關於我們</a> › <span data-i18n="crumb">片單總覽</span></div>
     <div class="hero">
       <h1 data-i18n="h1">片單總覽</h1>
-      <div class="en-sub">STR NETWORK · CONTENT CATALOGUE</div>
+      <div class="en-sub">STR NETWORK · CONTENT CATALOG</div>
       <p data-i18n="heroP">目前可授權的薩泰爾娛樂內容一覽：節目與現場喜劇。點選節目可查看介紹，並加入詢問清單。</p>
       <div class="stats">
         <div><strong id="statHours">0</strong><span data-i18n="statHours">小時可授權內容</span></div>
@@ -321,7 +321,7 @@
 
   <section class="block" id="inquiry">
     <div class="wrap">
-      <div class="sec-title"><h2 data-i18n="secInquiry">合作與授權詢問</h2><small>ENQUIRY</small></div>
+      <div class="sec-title"><h2 data-i18n="secInquiry">合作與授權詢問</h2><small>INQUIRY</small></div>
       <form class="form-shell no-lic" id="form" novalidate>
         <div class="obj-block">
           <h4 class="req" data-i18n="objH">合作目標</h4>
@@ -449,8 +449,8 @@
   </div>
 </dialog>
 
-<script src="config.js?v=6"></script>
-<script src="data.js?v=38"></script>
+<script src="config.js?v=7"></script>
+<script src="data.js?v=39"></script>
 <script>
 const PURPOSES = [
   ["svod", "SVOD 訂閱制串流", "SVOD (subscription streaming)", "", ""],
@@ -471,10 +471,10 @@ const GUIDE = {
     "填寫聯絡資料後送出。經確認後，將主動與您聯繫討論授權條件。",
   ],
   en: [
-    "This page lists STR Network's licensable content and lets you send licensing and partnership enquiries. Terms and fees will be quoted by our team.",
-    "Click \"Add to enquiry\" on any title or program — you can select as many as you like.",
-    "Tick the intended usage (multiple allowed) and fill in territory, term, exclusivity and planned launch date.",
-    "Fill in your contact details and submit. Once reviewed, we will contact you to discuss licence terms.",
+    "This page lists STR Network's licensable content and lets you send licensing and partnership inquiries. Terms and fees will be quoted by our team.",
+    "Click \"Add to inquiry\" on any title or program — you can select as many as you like.",
+    "Check the intended usage (multiple allowed) and fill in territory, term, exclusivity and planned launch date.",
+    "Fill in your contact details and submit. Once reviewed, we will contact you to discuss license terms.",
   ],
 };
 const FAQ = {
@@ -486,17 +486,17 @@ const FAQ = {
     ["我是代理商，可以代客戶詢問嗎？", "可以。請在「公司名稱」填寫貴公司，並於留言中註明實際被授權方與播出平台。"],
   ],
   en: [
-    ["Why are some titles not listed?", "Some programs contain third-party material, are co-owned, or are currently under exclusive licence elsewhere. If you are looking for a specific title, please mention it in your message."],
-    ["Are English subtitles available?", "Most titles come with Chinese subtitles, and some already have English and Malay subtitles. Other languages can be discussed as part of the licence."],
-    ["Can I preview a title first?", "Most titles have \"▶ Preview clips\" you can watch right away. For a full-length screener, mention it in your enquiry and we will share a link where available."],
-    ["Do you license formats?", "Format licensing can be discussed separately. Please tick \"Content Acquisitions & Sales\"."],
-    ["I'm an agency acting for a client. Can I enquire?", "Of course. Enter your company name and note the actual licensee and platform in your message."],
+    ["Why are some titles not listed?", "Some programs contain third-party material, are co-owned, or are currently under exclusive license elsewhere. If you are looking for a specific title, please mention it in your message."],
+    ["Are English subtitles available?", "Most titles come with Chinese subtitles, and some already have English and Malay subtitles. Other languages can be discussed as part of the license."],
+    ["Can I preview a title first?", "Most titles have \"▶ Preview clips\" you can watch right away. For a full-length screener, mention it in your inquiry and we will share a link where available."],
+    ["Do you license formats?", "Format licensing can be discussed separately. Please check \"Content Acquisitions & Sales\"."],
+    ["I'm an agency acting for a client. Can I inquire?", "Of course. Enter your company name and note the actual licensee and platform in your message."],
   ],
 };
 
 const I18N = {
   zh: {
-    copyright: "© 薩泰爾娛樂股份有限公司 STR Network", brandSub: "內容授權", navAbout: "關於我們", navAll: "片單總覽", navCatalogue: "現場喜劇", navSeries: "節目", navInquiry: "合作詢問", navFaq: "常見問題", pill: "詢問清單",
+    copyright: "© 薩泰爾娛樂股份有限公司 STR Network", brandSub: "內容授權", navAbout: "關於我們", navAll: "片單總覽", navCatalog: "現場喜劇", navSeries: "節目", navInquiry: "合作詢問", navFaq: "常見問題", pill: "詢問清單",
     home: "關於我們", crumb: "片單總覽", h1: "片單總覽",
     heroP: "目前可授權的薩泰爾娛樂內容一覽：節目與現場喜劇。點選節目可查看介紹，並加入詢問清單。",
     statHours: "小時可授權內容", statEps: "集系列節目", statAwardVal: "金鐘獲獎", statAward: "《博音》2026 廣播金鐘獎 生活風格節目獎", statWorldVal: "全球", statWorld: "授權地區",
@@ -510,23 +510,23 @@ const I18N = {
     enq: n => `詢問清單已選 ${n} 項`, goEnq: "前往合作詢問 →", close: "關閉",
   },
   en: {
-    copyright: "© STR Network", brandSub: "Content Licensing", navAbout: "About", navAll: "Catalogue", navCatalogue: "Live Comedy", navSeries: "Programs", navInquiry: "Enquiry", navFaq: "FAQ", pill: "Enquiry list",
-    home: "About", crumb: "Catalogue", h1: "Content Catalogue",
-    heroP: "Everything STR Network currently has available for licensing: original programs and live comedy shows. Open any title for details and add it to your enquiry.",
+    copyright: "© STR Network", brandSub: "Content Licensing", navAbout: "About", navAll: "Catalog", navCatalog: "Live Comedy", navSeries: "Programs", navInquiry: "Inquiry", navFaq: "FAQ", pill: "Inquiry list",
+    home: "About", crumb: "Catalog", h1: "Content Catalog",
+    heroP: "Everything STR Network currently has available for licensing: original programs and live comedy shows. Open any title for details and add it to your inquiry.",
     statHours: "hours of licensable content", statEps: "program episodes", statAwardVal: "Golden Bell", statAward: "2026 winner, Lifestyle Program – The Boring Podcast", statWorldVal: "Worldwide", statWorld: "rights available",
     secSpecials: "Live Comedy Shows", secSeries: "Programs",
     leadSpecials: "Full-length stand-up specials, roasts and showcases — ready for streaming, TV and in-flight.",
     leadSeries: "STR Network original and co-produced programs, licensable by episode.",
     titles: "titles", min: "min", agent: "Exclusive agent", cast: "Cast", sub: "Subtitles",
-    add: "+ Add to enquiry", added: "✓ In your enquiry", addShort: "+ Enquire", addedShort: "✓ Added", years: "Years",
+    add: "+ Add to inquiry", added: "✓ In your inquiry", addShort: "+ Inquire", addedShort: "✓ Added", years: "Years",
     preview: "▶ Preview", watch: "▶ Play preview", clips: "Preview clips", trailer: "Trailer", avgMin: "min per ep (avg.)", eps: "episodes", seePreview: "▶ Preview clips",
-    secInquiry: "Partnership & Licensing Enquiry", objH: "Objectives", objHint: "Select all that apply. Choose “Content Acquisitions & Sales” to pick titles and licence terms.", errObj: "Please choose at least one objective.", purposeH: "Intended usage", purposeHint: "Select all that apply", termsH: "Licence terms", territory: "Territory", territoryPh: "e.g. Taiwan, SEA, Worldwide", term: "Term", choose: "Select", y1: "1 year", y2: "2 years", y3: "3 years", y5: "5+ years", tbd: "To be discussed", excl: "Exclusivity", exNon: "Non-exclusive", exYes: "Exclusive", start: "Planned launch", subs: "Subtitles", subZh: "Chinese", subEn: "English", subZhEn: "Chinese + English", subOther: "Other (specify in message)", selH: "Selected titles", selHint: "Add titles from the catalogue above.", selEmpty: "No titles selected yet — add some from the catalogue above.", remove: "Remove", clientH: "Contact details", name: "Full name", jobTitle: "Job title", company: "Company", companyUrl: "Company website", email: "Email", phone: "Phone", country: "Country / region", platform: "Platform / URL", msg: "Message", msgPh: "e.g. specific episodes, screener request, other details", privacy: "Your details will only be used to respond to this enquiry.", submit: "Send enquiry", errSel: "Please select at least one title.", errName: "Please enter your name.", errPhone: "Please enter your phone number.", errPurpose: "Please choose at least one intended usage.", errTerms: f => `Please complete the licence terms: ${f}.`, errJob: "Please enter your job title.", errCompany: "Please enter your company name.", errEmail: "Please enter a valid email.", guideH: "How it works", faqH: "FAQ", sending: "Sending…", doneH: "Thank you — your enquiry has been sent!", doneP: e => `A confirmation has been sent to ${e}. We will be in touch shortly.`, step2K: "NEXT STEP", step2H: "Meet us at TCCF", step2P: "Let’s discuss licensing in person at TCCF.", bookBtn: "Choose a time →", errSend: e => `Sending failed. Please try again later, or email us at ${e}.`, errTooSoon: "You just sent an enquiry — please wait a minute before trying again.", series: "Program", search: "Search titles, talent…", empty: "No matching titles", found: n => `${n} found`,
-    enq: n => `${n} item${n === 1 ? "" : "s"} in your enquiry`, goEnq: "Go to enquiry →", close: "Close",
+    secInquiry: "Partnership & Licensing Inquiry", objH: "Objectives", objHint: "Select all that apply. Choose “Content Acquisitions & Sales” to pick titles and license terms.", errObj: "Please choose at least one objective.", purposeH: "Intended usage", purposeHint: "Select all that apply", termsH: "License terms", territory: "Territory", territoryPh: "e.g. Taiwan, Southeast Asia, Worldwide", term: "Term", choose: "Select", y1: "1 year", y2: "2 years", y3: "3 years", y5: "5+ years", tbd: "To be discussed", excl: "Exclusivity", exNon: "Non-exclusive", exYes: "Exclusive", start: "Planned launch", subs: "Subtitles", subZh: "Chinese", subEn: "English", subZhEn: "Chinese + English", subOther: "Other (specify in message)", selH: "Selected titles", selHint: "Add titles from the catalog above.", selEmpty: "No titles selected yet — add some from the catalog above.", remove: "Remove", clientH: "Contact details", name: "Full name", jobTitle: "Job title", company: "Company", companyUrl: "Company website", email: "Email", phone: "Phone", country: "Country / region", platform: "Platform / URL", msg: "Message", msgPh: "e.g. specific episodes, screener request, other details", privacy: "Your details will only be used to respond to this inquiry.", submit: "Send inquiry", errSel: "Please select at least one title.", errName: "Please enter your name.", errPhone: "Please enter your phone number.", errPurpose: "Please choose at least one intended usage.", errTerms: f => `Please complete the license terms: ${f}.`, errJob: "Please enter your job title.", errCompany: "Please enter your company name.", errEmail: "Please enter a valid email.", guideH: "How it works", faqH: "FAQ", sending: "Sending…", doneH: "Thank you — your inquiry has been sent!", doneP: e => `A confirmation has been sent to ${e}. We will be in touch shortly.`, step2K: "NEXT STEP", step2H: "Meet us at TCCF", step2P: "Let’s discuss licensing in person at TCCF.", bookBtn: "Choose a time →", errSend: e => `Sending failed. Please try again later, or email us at ${e}.`, errTooSoon: "You just sent an inquiry — please wait a minute before trying again.", series: "Program", search: "Search titles, talent…", empty: "No matching titles", found: n => `${n} found`,
+    enq: n => `${n} item${n === 1 ? "" : "s"} in your inquiry`, goEnq: "Go to inquiry →", close: "Close",
   },
 };
 
 let lang = loadLang();
-let selected = new Set(loadEnquiry().filter(id => TITLES.some(x => x.id === id) || SHOWS.some(x => x.id === id)));
+let selected = new Set(loadInquiry().filter(id => TITLES.some(x => x.id === id) || SHOWS.some(x => x.id === id)));
 const objectives = new Set();
 let query = "";
 const $ = (s, el = document) => el.querySelector(s);
@@ -542,7 +542,7 @@ const coverImg = x => x.s ? `<img src="images/${x.id}.jpg" alt="" loading="lazy"
 function toggle(id) {
   selected.has(id) ? selected.delete(id) : selected.add(id);
   if (selected.size && !objectives.has("acq")) { objectives.add("acq"); renderForm(); }
-  saveEnquiry([...selected]);
+  saveInquiry([...selected]);
   renderLists(); renderBar(); renderSelected();
   const db = $("#dlg").open && $(`#dlg [data-add="${id}"]`);
   if (db) { db.classList.toggle("added", selected.has(id)); db.textContent = selected.has(id) ? t("added") : t("add"); }
@@ -567,7 +567,7 @@ function renderStatic() {
   renderForm();
 }
 
-/* ---------- Enquiry form ---------- */
+/* ---------- Inquiry form ---------- */
 function renderForm() {
   const purposes = new Set([...document.querySelectorAll("input[name=purpose]:checked")].map(i => i.value));
   $("#purposes").innerHTML = PURPOSES.map(([id, zh, en, hz, he]) => {
@@ -794,17 +794,17 @@ $("#form").addEventListener("submit", async e => {
   const err = $("#err");
   if (errs.length) { err.textContent = errs.join(" "); err.style.display = "block"; return; }
   err.style.display = "none";
-  if (!SITE_CONFIG.enquiryEndpoint) { console.log("Demo mode, not sent:", payload()); return; }
+  if (!SITE_CONFIG.inquiryEndpoint) { console.log("Demo mode, not sent:", payload()); return; }
 
   const btn = f.querySelector("button[type=submit]");
   btn.disabled = true; btn.textContent = t("sending");
   try {
     const data = payload();
     // text/plain keeps this a "simple" request, so Apps Script needs no CORS preflight.
-    const res = await fetch(SITE_CONFIG.enquiryEndpoint, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data) });
+    const res = await fetch(SITE_CONFIG.inquiryEndpoint, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data) });
     const out = await res.json();
     if (!out.ok) throw new Error(out.error || "failed");
-    selected.clear(); objectives.clear(); saveEnquiry([]); f.reset();
+    selected.clear(); objectives.clear(); saveInquiry([]); f.reset();
     renderForm(); renderLists(); renderBar(); renderSelected();
     showDone(data.email);
   } catch (ex) {
@@ -824,12 +824,12 @@ const io = new IntersectionObserver(entries => {
 }, { rootMargin: "-130px 0px -60% 0px" });
 ["specials", "series", "inquiry"].forEach(id => io.observe(document.getElementById(id)));
 
-// Keep in sync if the enquiry list changes in another tab
-window.addEventListener("storage", e => { if (e.key === "str-enquiry") { selected = new Set(loadEnquiry()); renderLists(); renderBar(); renderSelected(); } });
+// Keep in sync if the inquiry list changes in another tab
+window.addEventListener("storage", e => { if (e.key === "str-inquiry") { selected = new Set(loadInquiry()); renderLists(); renderBar(); renderSelected(); } });
 
 function renderAll() { renderStatic(); renderLists(); renderBar(); renderSelected(); }
 
-// Pre-select an objective from links like catalogue.html?obj=invest#inquiry; titles already picked imply acquisitions.
+// Pre-select an objective from links like catalog.html?obj=invest#inquiry; titles already picked imply acquisitions.
 const objParam = new URLSearchParams(location.search).get("obj");
 if (OBJECTIVES.some(o => o.key === objParam)) objectives.add(objParam);
 if (selected.size) objectives.add("acq");
@@ -838,7 +838,7 @@ setupMenu();
 // Cards are drawn after load, which pushes sections down; jump to the linked section again.
 if (/^#[a-z]+$/.test(location.hash)) document.querySelector(location.hash)?.scrollIntoView({ behavior: "instant" });
 
-// Deep link: catalogue.html#t=<id> opens that title's preview
+// Deep link: catalog.html#t=<id> opens that title's preview
 const deep = location.hash.match(/^#t=([\w-]+)$/);
 if (deep && findItem(deep[1])) openDetail(deep[1]);
 </script>

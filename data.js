@@ -926,12 +926,12 @@ const SHOWS = [
   }
 ];
 
-/* ---------- Enquiry list shared between pages (per-browser convenience) ---------- */
-const ENQ_KEY = "str-enquiry";
-function loadEnquiry() {
+/* ---------- Inquiry list shared between pages (per-browser convenience) ---------- */
+const ENQ_KEY = "str-inquiry";
+function loadInquiry() {
   try { const v = JSON.parse(localStorage.getItem(ENQ_KEY) || "[]"); return Array.isArray(v) ? v : []; } catch (_) { return []; }
 }
-function saveEnquiry(ids) {
+function saveInquiry(ids) {
   try { localStorage.setItem(ENQ_KEY, JSON.stringify(ids)); } catch (_) {}
 }
 function loadLang() {
@@ -961,8 +961,8 @@ function setupMenu() {
   document.addEventListener("keydown", e => { if (e.key === "Escape") set(false); });
 }
 
-/* ---------- Partnership objectives (about page + enquiry form) ---------- */
-// "acq" is the only objective that needs titles / licence terms on the form.
+/* ---------- Partnership objectives (about page + inquiry form) ---------- */
+// "acq" is the only objective that needs titles / license terms on the form.
 const OBJECTIVES = [
   { key: "invest", zh: "投資合作", en: "Investment Partnerships",
     dzh: "尋求投資，也歡迎共同投資優質內容", den: "Seeking investors and co-investment opportunities",

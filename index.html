@@ -6,12 +6,12 @@
 <title>薩泰爾娛樂 STR Network</title>
 <style>body { margin: 0; background: #000; color: #f2f0eb; font-family: system-ui, sans-serif; } a { color: #ffcf1a; }</style>
 <script>
-  // The site's front door is the About page. Old links to the enquiry form, FAQ or a
-  // section of the catalogue (index.html#inquiry, ?obj=…) are forwarded to catalogue.html.
+  // The site's front door is the About page. Old links to the inquiry form, FAQ or a
+  // section of the catalog (index.html#inquiry, ?obj=…) are forwarded to catalog.html.
   (function () {
     var hash = location.hash, query = location.search;
-    var toCatalogue = /^#(inquiry|guide|catalogue|series|specials|t=)/.test(hash) || /[?&]obj=/.test(query);
-    var target = toCatalogue ? "catalogue.html" + query + (hash === "#catalogue" ? "#specials" : hash) : "about.html" + query + hash;
+    var toCatalog = /^#(inquiry|guide|catalog|series|specials|t=)/.test(hash) || /[?&]obj=/.test(query);
+    var target = toCatalog ? "catalog.html" + query + (hash === "#catalog" ? "#specials" : hash) : "about.html" + query + hash;
     location.replace(target);
   })();
 </script>

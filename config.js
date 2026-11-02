@@ -2,7 +2,7 @@
 const SITE_CONFIG = {
   // Apps Script web app URL (Deploy → Web app → URL ending in /exec).
   // Leave empty to keep the demo behaviour (no data is sent anywhere).
-  enquiryEndpoint: "https://script.google.com/macros/s/AKfycbwRfrEm9AVKwyu2GKMM2RcrXmIK2XXC8PIWW8hPJLWDUQkczgAdXQIzWcUCDSQpkBGekg/exec",
+  inquiryEndpoint: "https://script.google.com/macros/s/AKfycbwRfrEm9AVKwyu2GKMM2RcrXmIK2XXC8PIWW8hPJLWDUQkczgAdXQIzWcUCDSQpkBGekg/exec",
 
   // Google Calendar appointment schedule booking page (debbie@strnetwork.cc).
   // Leave empty to hide the "book a meeting" step.

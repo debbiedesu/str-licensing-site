@@ -123,7 +123,7 @@
   .works .info { font-size: 12.5px; color: var(--ink-3); }
   .more-link { display: inline-block; margin-top: 14px; color: var(--accent); text-decoration: none; font-weight: 700; }
 
-  /* Enquiry form */
+  /* Inquiry form */
   .form { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
   .form h4 { margin: 0 0 4px; font-size: 13px; letter-spacing: 2px; font-weight: 900; }
   .hint { font-size: 12.5px; color: var(--ink-3); margin: 0 0 12px; }
@@ -202,17 +202,17 @@
     <a class="logo" href="about.html"><img class="logo-img" src="images/str-logo.png" alt="STR Network" width="374" height="64"> <span class="sub" data-i18n="brandSub">內容授權</span></a>
     <nav class="main" id="mainNav">
       <a href="#top" class="cur" data-i18n="navAbout">關於我們</a>
-      <a href="catalogue.html" data-i18n="navAll">片單總覽</a>
-      <a href="catalogue.html#specials" data-i18n="navCatalogue">現場喜劇</a>
-      <a href="catalogue.html#series" data-i18n="navSeries">節目</a>
-      <a href="catalogue.html#inquiry" data-i18n="navInquiry">合作詢問</a>
-      <a href="catalogue.html#guide" data-i18n="navFaq">常見問題</a>
+      <a href="catalog.html" data-i18n="navAll">片單總覽</a>
+      <a href="catalog.html#specials" data-i18n="navCatalog">現場喜劇</a>
+      <a href="catalog.html#series" data-i18n="navSeries">節目</a>
+      <a href="catalog.html#inquiry" data-i18n="navInquiry">合作詢問</a>
+      <a href="catalog.html#guide" data-i18n="navFaq">常見問題</a>
     </nav>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" data-lang="zh" class="on">中</button>
       <button type="button" data-lang="en">EN</button>
     </div>
-    <a class="inq-pill" href="catalogue.html#inquiry"><span class="lbl" data-i18n="pill">詢問清單</span> <span id="pillCount">0</span></a>
+    <a class="inq-pill" href="catalog.html#inquiry"><span class="lbl" data-i18n="pill">詢問清單</span> <span id="pillCount">0</span></a>
     <button type="button" class="burger" aria-label="Menu" aria-controls="mainNav" aria-expanded="false"><span></span></button>
   </div>
 </header>
@@ -228,7 +228,7 @@
         <p class="hero-sub" data-i18n="heroSub">立足臺灣這個亞洲言論最自由的市場，我們是引領中文娛樂產業的喜劇製作公司。</p>
         <div class="ctas">
           <a class="btn primary" href="#contact" data-i18n="ctaTalk">和我們聊聊</a>
-          <a class="btn" href="catalogue.html" data-i18n="ctaCatalogue">看片單</a>
+          <a class="btn" href="catalog.html" data-i18n="ctaCatalog">看片單</a>
         </div>
       </div>
     </div>
@@ -269,7 +269,7 @@
     <div class="wrap">
       <div class="sec-title"><h2 data-i18n="worksH">推薦作品</h2><small>RECOMMENDED</small></div>
       <div class="works" id="worksList"></div>
-      <a class="more-link" href="catalogue.html" data-i18n="worksMore">看完整片單 →</a>
+      <a class="more-link" href="catalog.html" data-i18n="worksMore">看完整片單 →</a>
     </div>
   </section>
 
@@ -311,7 +311,7 @@
       </div>
       <div class="ctas">
         <a class="btn primary" id="bookBtn" target="_blank" rel="noopener" data-i18n="ctaBook">預約攤位會面</a>
-        <a class="btn" href="#contact" data-i18n="ctaEnquiry">送出詢問</a>
+        <a class="btn" href="#contact" data-i18n="ctaInquiry">送出詢問</a>
       </div>
     </div>
   </div>
@@ -341,49 +341,49 @@
   </div>
 </dialog>
 
-<script src="config.js?v=6"></script>
-<script src="data.js?v=38"></script>
+<script src="config.js?v=7"></script>
+<script src="data.js?v=39"></script>
 <script>
 const I18N = {
   zh: {
     brandSub: "內容授權", copyright: "© 薩泰爾娛樂股份有限公司 STR Network",
-    navAbout: "關於我們", navAll: "片單總覽", navCatalogue: "現場喜劇", navSeries: "節目", navInquiry: "合作詢問", navFaq: "常見問題", pill: "詢問清單",
+    navAbout: "關於我們", navAll: "片單總覽", navCatalog: "現場喜劇", navSeries: "節目", navInquiry: "合作詢問", navFaq: "常見問題", pill: "詢問清單",
     heroQuote: "「運用我們的專業帶來更多歡笑，成為中文世界最強的喜劇公司。」",
     heroSub: "立足臺灣這個亞洲言論最自由的市場，我們是引領中文娛樂產業的喜劇製作公司。",
-    ctaTalk: "和我們聊聊", ctaCatalogue: "看片單", asOf: "數據截至 2026 年 10 月",
+    ctaTalk: "和我們聊聊", ctaCatalog: "看片單", asOf: "數據截至 2026 年 10 月",
     aboutH: "關於薩泰爾娛樂",
     aboutP: "2018 年成立，臺灣最具代表性的喜劇製作公司。專注於原創中文喜劇內容開發與製作，如：單口喜劇、冒犯喜劇與情境喜劇等。迄今舉辦逾百場現場喜劇演出，累計線下票房破億，持續拓展華語喜劇的規模與想像。業務涵蓋內容製作、內容授權、品牌合作、數位行銷、國際發行、投資合製與藝人經紀。",
     bizH: "業務範疇",
     objSecH: "我們想和你聊聊", objLead: "三種合作方式，選一個開始聊。", objCta: "我想談這個 →",
     talkH: "歡迎洽談", worksH: "推薦作品", kindSpecial: "現場喜劇", kindSeries: "節目", min: "分鐘", eps: "集", worksMore: "看完整片單 →",
-    closingH: "TCCF 現場見", ctaBook: "預約攤位會面", ctaEnquiry: "送出詢問",
+    closingH: "TCCF 現場見", ctaBook: "預約攤位會面", ctaInquiry: "送出詢問",
     contactH: "和我們聊聊", contactLead: "留下你的聯絡方式和想法，我們會盡快回覆。", objH: "合作目標", objHint: "可複選",
     name: "姓名", jobTitle: "職稱", company: "公司名稱", companyUrl: "公司網址", phone: "電話", country: "國家 / 地區", platform: "播出平台 / 網址", msg: "留言",
     msgPh: "請簡述你的合作想法", privacy: "您的資料僅用於回覆本次詢問。", submit: "送出詢問", sending: "送出中…",
-    acqWith: n => `將一併詢問你在片單加入的 ${n} 個節目：`, acqEdit: "到片單修改", acqNone: "想詢問特定節目？可以先到<a href=\"catalogue.html\">片單總覽</a>加入詢問清單，或直接寫在留言。",
+    acqWith: n => `將一併詢問你在片單加入的 ${n} 個節目：`, acqEdit: "到片單修改", acqNone: "想詢問特定節目？可以先到<a href=\"catalog.html\">片單總覽</a>加入詢問清單，或直接寫在留言。",
     errObj: "請至少選擇一個合作目標。", errName: "請填寫姓名。", errJob: "請填寫職稱。", errCompany: "請填寫公司名稱。", errPhone: "請填寫電話。", errEmail: "請填寫正確的 Email。",
     errSend: e => `送出失敗，請稍後再試，或直接寄信至 ${e}。`, errTooSoon: "剛剛已經送出過了，請稍候一分鐘再試。",
     doneH: "已送出，謝謝您！", doneP: e => `確認信已寄到 ${e}，我們會盡快與您聯繫。`, step2K: "下一步", step2H: "預約 TCCF 攤位會面", step2P: "歡迎在 TCCF 現場與我們面談細節。", bookBtn: "選擇會議時間 →", close: "關閉",
   },
   en: {
     brandSub: "Content Licensing", copyright: "© STR Network",
-    navAbout: "About", navAll: "Catalogue", navCatalogue: "Live Comedy", navSeries: "Programs", navInquiry: "Enquiry", navFaq: "FAQ", pill: "Enquiry list",
+    navAbout: "About", navAll: "Catalog", navCatalog: "Live Comedy", navSeries: "Programs", navInquiry: "Inquiry", navFaq: "FAQ", pill: "Inquiry list",
     heroQuote: "Bringing More Laughter Through Our Expertise, Becoming the Leading Comedy Company in the Mandarin-Speaking World.",
     heroSub: "“A leading comedy production company based in Taiwan—Asia’s most open market for free expression—shaping the Mandarin-speaking entertainment industry.”",
-    ctaTalk: "Let's talk", ctaCatalogue: "View catalogue", asOf: "Figures as of October 2026",
+    ctaTalk: "Let's talk", ctaCatalog: "View catalog", asOf: "Figures as of October 2026",
     aboutH: "About STR Network",
     aboutP: "STR Network is Taiwan’s leading comedy production company, based in Asia’s most open market for free expression. Since 2018, we have created original Mandarin comedy IPs, developed artists, and produced arena-scale live shows alongside high-impact digital content. Our business spans content production, licensing, brand partnerships, digital marketing, international distribution, investment & co-production, and talent management.",
     bizH: "WHAT WE DO",
     objSecH: "What We Are Looking For", objLead: "Three ways to work with us — pick one to start the conversation.", objCta: "Talk to us about this →",
-    talkH: "Let's Talk If You…", worksH: "Recommended", kindSpecial: "Live Comedy", kindSeries: "Programs", min: "min", eps: "episodes", worksMore: "View full catalogue →",
-    closingH: "Meet us at TCCF", ctaBook: "Book a meeting", ctaEnquiry: "Send an enquiry",
+    talkH: "Let's Talk If You…", worksH: "Recommended", kindSpecial: "Live Comedy", kindSeries: "Programs", min: "min", eps: "episodes", worksMore: "View full catalog →",
+    closingH: "Meet us at TCCF", ctaBook: "Book a meeting", ctaInquiry: "Send an inquiry",
     contactH: "Get in Touch", contactLead: "Leave your details and what you have in mind — we'll get back to you shortly.", objH: "Objectives", objHint: "Select all that apply",
     name: "Full name", jobTitle: "Job title", company: "Company", companyUrl: "Company website", phone: "Phone", country: "Country / region", platform: "Platform / URL", msg: "Message",
-    msgPh: "Tell us briefly what you have in mind", privacy: "Your details will only be used to respond to this enquiry.", submit: "Send enquiry", sending: "Sending…",
-    acqWith: n => `Your ${n} selected title(s) from the catalogue will be included:`, acqEdit: "Edit in catalogue", acqNone: "Interested in specific titles? Add them from the <a href=\"catalogue.html\">catalogue</a>, or list them in your message.",
+    msgPh: "Tell us briefly what you have in mind", privacy: "Your details will only be used to respond to this inquiry.", submit: "Send inquiry", sending: "Sending…",
+    acqWith: n => `Your ${n} selected title(s) from the catalog will be included:`, acqEdit: "Edit in catalog", acqNone: "Interested in specific titles? Add them from the <a href=\"catalog.html\">catalog</a>, or list them in your message.",
     errObj: "Please choose at least one objective.", errName: "Please enter your name.", errJob: "Please enter your job title.", errCompany: "Please enter your company name.", errPhone: "Please enter your phone number.", errEmail: "Please enter a valid email.",
-    errSend: e => `Sending failed. Please try again later, or email us at ${e}.`, errTooSoon: "You just sent an enquiry — please wait a minute before trying again.",
-    doneH: "Thank you — your enquiry has been sent!", doneP: e => `A confirmation has been sent to ${e}. We will be in touch shortly.`, step2K: "NEXT STEP", step2H: "Meet us at TCCF", step2P: "Let's discuss the details in person at TCCF.", bookBtn: "Choose a time →", close: "Close",
+    errSend: e => `Sending failed. Please try again later, or email us at ${e}.`, errTooSoon: "You just sent an inquiry — please wait a minute before trying again.",
+    doneH: "Thank you — your inquiry has been sent!", doneP: e => `A confirmation has been sent to ${e}. We will be in touch shortly.`, step2K: "NEXT STEP", step2H: "Meet us at TCCF", step2P: "Let's discuss the details in person at TCCF.", bookBtn: "Choose a time →", close: "Close",
   },
 };
 
@@ -417,7 +417,7 @@ function render() {
   document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
   document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll(".lang button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
-  $("#pillCount").textContent = loadEnquiry().length;
+  $("#pillCount").textContent = loadInquiry().length;
 
   $("#stats").innerHTML = STATS.map(([n, zh, en, nEn]) => `<div><strong>${esc(lang === "en" && nEn ? nEn : n)}</strong>${esc(L(zh, en))}</div>`).join("");
   $("#bizTags").innerHTML = BUSINESS.map(([zh, en]) => `<span>${esc(L(zh, en))}</span>`).join("");
@@ -440,7 +440,7 @@ function render() {
     const clip = isShow && x.trailers && x.trailers[0];
     const src = !isShow ? `images/${x.id}.jpg` : x.cover ? x.cover : clip ? `https://i.ytimg.com/vi/${clip.yt}/hqdefault.jpg` : "";
     const info = isShow ? `${x.years} · ${x.counts[0][0]} ${t("eps")}` : `${x.y} · ${x.min} ${t("min")}`;
-    return `<a href="catalogue.html#t=${x.id}">
+    return `<a href="catalog.html#t=${x.id}">
       <div class="pic"><span class="ph">${esc(name)}</span>${src ? `<img src="${src}" alt="" loading="lazy" onerror="this.remove()">` : ""}</div>
       <div class="txt"><span class="kind">${t(isShow ? "kindSeries" : "kindSpecial")}</span><span class="nm">${esc(name)}</span>${x.award ? `<span class="aw">${esc(L(x.award[0], x.award[1]))}</span>` : ""}<span class="info">${esc(info)}</span></div>
     </a>`;
@@ -452,9 +452,9 @@ function render() {
   else if (book) book.remove();
 }
 
-/* ---------- Enquiry form (same backend and fields as the licensing page, minus licence terms) ---------- */
+/* ---------- Inquiry form (same backend and fields as the licensing page, minus license terms) ---------- */
 const objectives = new Set();
-const enquiryTitles = () => loadEnquiry().map(findItem).filter(Boolean);
+const inquiryTitles = () => loadInquiry().map(findItem).filter(Boolean);
 
 function renderForm() {
   $("#objPick").innerHTML = OBJECTIVES.map(o => `<label class="obj"><input type="checkbox" name="objective" value="${o.key}" ${objectives.has(o.key) ? "checked" : ""}>
@@ -465,12 +465,12 @@ function renderForm() {
 function syncForm() {
   const first = OBJECTIVES.find(o => objectives.has(o.key));
   $("#msg").placeholder = first ? L(first.msgZh, first.msgEn) : t("msgPh");
-  // Acquisitions: carry over titles picked on the catalogue, or point people there.
+  // Acquisitions: carry over titles picked on the catalog, or point people there.
   const note = $("#acqNote");
   note.classList.toggle("show", objectives.has("acq"));
-  const items = enquiryTitles();
+  const items = inquiryTitles();
   note.innerHTML = items.length
-    ? `${esc(t("acqWith")(items.length))} ${items.map(x => esc(L(x.zh, x.en))).join("、")}　<a href="catalogue.html">${t("acqEdit")}</a>`
+    ? `${esc(t("acqWith")(items.length))} ${items.map(x => esc(L(x.zh, x.en))).join("、")}　<a href="catalog.html">${t("acqEdit")}</a>`
     : t("acqNone");
 }
 
@@ -498,7 +498,7 @@ $("#form").addEventListener("submit", async e => {
   if (errs.length) { err.textContent = errs.join(" "); err.style.display = "block"; return; }
   err.style.display = "none";
 
-  const acq = objectives.has("acq"), items = acq ? enquiryTitles() : [];
+  const acq = objectives.has("acq"), items = acq ? inquiryTitles() : [];
   const data = {
     lang,
     objectives: OBJECTIVES.filter(o => objectives.has(o.key)).map(o => L(o.zh, o.en)),
@@ -509,16 +509,16 @@ $("#form").addEventListener("submit", async e => {
     purposes: [], territory: "", term: "", excl: "", start: "", subs: "",
     msg: f.msg.value.trim(), website: f.website.value,
   };
-  if (!SITE_CONFIG.enquiryEndpoint) { console.log("Demo mode, not sent:", data); return; }
+  if (!SITE_CONFIG.inquiryEndpoint) { console.log("Demo mode, not sent:", data); return; }
 
   const btn = f.querySelector("button[type=submit]");
   btn.disabled = true; btn.textContent = t("sending");
   try {
     // text/plain keeps this a "simple" request, so Apps Script needs no CORS preflight.
-    const res = await fetch(SITE_CONFIG.enquiryEndpoint, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data) });
+    const res = await fetch(SITE_CONFIG.inquiryEndpoint, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data) });
     const out = await res.json();
     if (!out.ok) throw new Error(out.error || "failed");
-    if (items.length) saveEnquiry([]);
+    if (items.length) saveInquiry([]);
     objectives.clear(); f.reset(); render();
     $("#doneP").textContent = t("doneP")(data.email);
     $("#step2").style.display = SITE_CONFIG.bookingUrl ? "" : "none";
