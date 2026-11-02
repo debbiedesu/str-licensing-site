@@ -71,7 +71,7 @@ const TITLES = [
       "Stand-up"
     ],
     "talent": "曾博恩",
-    "dzh": "有人說，博恩的表演不登大雅之堂\n他卻上過國家戲劇院、Comedy Central Asia、TICC 與 北流\n\n有人說，喜劇養不起生活\n薩泰爾卻養起了三十幾人的生活\n\n有人說，直男不可能出飛機杯\n沒事。\n\n專挑不可能的事情來做\n2023 曾博恩將在新的巡迴中\n再次當不同層面的開路先鋒\n\n從來沒有人用中文舉辦過世界巡迴的 stand up 個人秀\n\n從來沒有人在小巨蛋講過喜劇專場\n\n從來沒有人在台上講到全裸\n而這次也不會。\n\n把不可能變成可能\n把零變成一（並非指飛機杯）\n的那個 破 蛋 者 來了\n\n有人說，臺灣喜劇離小巨蛋還早\n你們說呢？",
+    "dzh": "有人說，博恩的表演不登大雅之堂\n他卻上過國家戲劇院、Comedy Central Asia、TICC 與 北流\n\n有人說，喜劇養不起生活\n薩泰爾卻養起了三十幾人的生活\n\n有人說，直男不可能出飛機杯\n沒事。\n\n專挑不可能的事情來做\n2023 曾博恩將在新的巡迴中\n再次當不同層面的開路先鋒\n\n從來沒有人用中文舉辦過世界巡迴的 stand up 個人秀\n\n從來沒有人在小巨蛋講過喜劇專場\n\n從來沒有人在台上講到全裸\n而這次也不會。\n\n把不可能變成可能\n把零變成一（並非指飛機杯）\n的那個破蛋者來了！\n\n有人說，臺灣喜劇離小巨蛋還早\n你們說呢？",
     "den": "Brian Tseng, a trailblazer in Taiwan's comedy scene, has performed everywhere from the National Theater, Comedy Central Asia, TICC, and Taipei Music Center, to now becoming the first stand-up comedian to take the stage at Taipei Arena.",
     "producer": {
       "zh": "林佳蒨",
@@ -299,7 +299,7 @@ const TITLES = [
       "Stand-up, Showcase"
     ],
     "talent": "曾博恩、凱莉、黃逸豪、黃豪平、歐耶、怡岑、賀瓏、喬瑟夫",
-    "dzh": "「當你不 G8，G8 的就會是別人」\n\n當百靈果教主凱莉強碰台灣最強80後相聲演員黃逸豪\n當喜劇貴公子黃豪平遇上分手歌的怡岑\n甚至歐耶老師也來跟博恩搶奪「有趣的曾講師」頭銜！\n歐對，還有賀瓏跟喬瑟夫\n\n管你要叫它站立喜劇、單口喜劇、脫口秀還是演講\n《G8 高峰會》堪稱史上最強卡司的大型年度現場喜劇拼盤秀\n看台灣頂尖喜劇演員使出渾身解數\n讓全場觀眾捧腹大笑的火力展示！",
+    "dzh": "「當你不 G8，G8 的就會是別人」\n\n當百靈果教主凱莉強碰臺灣最強80後相聲演員黃逸豪\n當喜劇貴公子黃豪平遇上分手歌的怡岑\n甚至歐耶老師也來跟博恩搶奪「有趣的曾講師」頭銜！\n歐對，還有賀瓏跟喬瑟夫\n\n管你要叫它站立喜劇、單口喜劇、脫口秀還是演講\n《G8 高峰會》堪稱史上最強卡司的大型年度現場喜劇拼盤秀\n看臺灣頂尖喜劇演員使出渾身解數\n讓全場觀眾捧腹大笑的火力展示！",
     "den": "A star-studded, large-scale annual comedy showcase featuring the strongest lineup in history! Watch Taiwan's top comedians pull out all the stops in a powerful performance guaranteed to have the audience roaring with laughter!",
     "trailers": [
       {
@@ -472,7 +472,7 @@ const TITLES = [
       "Roast"
     ],
     "talent": "曾博恩、沈玉琳、呱吉、楊貴智、蘋蘋澎澎、潘若迪、昆蟲擾西、達康.come、簡少年、Peeta葛格",
-    "dzh": "台灣單口喜劇演員曾博恩，凡是台灣喜劇圈出事，話題最後都會回到他身上，就算根本毫無關聯。他可能也是拍過最多支道歉影片的喜劇演員。這次換他親自上陣，正面對決所有炎上直球，他能從這場火海裡全身而退嗎？",
+    "dzh": "臺灣單口喜劇演員曾博恩，凡是臺灣喜劇圈出事，話題最後都會回到他身上，就算根本毫無關聯。他可能也是拍過最多支道歉影片的喜劇演員。這次換他親自上陣，正面對決所有炎上直球，他能從這場火海裡全身而退嗎？",
     "den": "One of Taiwan’s most recognized comedians and a defining voice in its comedy scene, Brian Tseng takes the hot seat. In Taiwan’s comedy scene, everything somehow leads back to him—even when it doesn’t. Having filmed more apology videos than anyone else, he now faces the fire.",
     "producer": {
       "zh": "廖子寧",
@@ -525,7 +525,7 @@ const TITLES = [
       "Roast"
     ],
     "talent": "鍾明軒、陳大天、佳諭、比杰、嗨咖、琳妲、神經元、Cheap、瑞恩",
-    "dzh": "台灣最具知名度的YouTuber之一「國際美人」鍾明軒。鮮明的個性、直言不諱的立場，讓他長期站在公眾議論的中心，甚至捲入兩岸關係的種種揣測。這一次，他選擇不再迴避，直球面對所有質疑。",
+    "dzh": "臺灣最具知名度的YouTuber之一「國際美人」鍾明軒。鮮明的個性、直言不諱的立場，讓他長期站在公眾議論的中心，甚至捲入兩岸關係的種種揣測。這一次，他選擇不再迴避，直球面對所有質疑。",
     "den": "One of Taiwan’s most recognizable YouTubers, Zhong Ming-Xuan, known as the “International Beauty,” takes the hot seat. With a bold personality and outspoken views, he has long been at the center of public debate, including speculation around cross-strait ties—this time, he faces the fire head-on.",
     "producer": {
       "zh": "廖子寧",
@@ -540,63 +540,37 @@ const TITLES = [
     ]
   },
   {
-    "id": "burn-tgop",
+    "id": "burn-hsu",
     "s": "burn",
-    "y": 2024,
-    "zh": "《炎上 BURN》－炎上　這群人",
-    "en": "BURN: The Roast of TGOP",
-    "min": 110,
+    "y": 2021,
+    "zh": "《炎上 BURN》－炎上　徐乃麟",
+    "en": "BURN: The Roast of Hsu Nai-Lin",
+    "min": 102,
     "type": [
       "吐槽大會",
       "Roast"
     ],
-    "talent": "這群人 TGOP（展榮、展瑞、茵聲、董仔、木星、尼克、石頭）、陳大天、唐從聖、鐵牛、黃小柔、楊昇達、酷炫、黃氏兄弟、莫宰羊、Green Father 比杰",
-    "dzh": "百萬 YouTuber 團體「這群人 TGOP」\n停更前的終局之戰\n十三年來所有的恩怨情仇\n將在《炎上 BURN》一次全部算個清楚\n\n這場不留情面的告別式之後\n大家會是彼此祝福、各自安好\n還是永遠不回頭、秒刪你電話\n\n【炎上   這群人】\n一起來送他們最後一程",
-    "den": "With over 3 million subscribers, one of Taiwan’s most influential YouTube groups—TGOP (This Group of People)—takes the hot seat. After more than a decade of content, fame, and internal tensions, they step into the spotlight together to settle everything—one joke at a time.",
+    "talent": "徐乃麟、曾博恩、楊繡惠、龍龍、JIM 程建評、美秀集團 修齊、蕾菈、熊熊、老K、陳大天",
+    "dzh": "綜藝大哥徐乃麟，面對炎上大將軍及火伴們的大膽冒犯，是不是又會輸不起？\n不被審查也不被停播的吐槽大會，臺灣史上最高規格低級喜劇現場演出，挑戰冒犯的底線！",
+    "den": "Taiwanese variety show icon Hsu Nai-Lin takes the hot seat. Known for his larger-than-life personality and competitive streak, he now faces the ultimate test—surviving the heat, one brutal joke at a time.",
     "producer": {
-      "zh": "劉俊麟",
-      "en": ""
+      "zh": "謝政豪",
+      "en": "Hauer Hsieh"
     },
     "trailers": [
       {
-        "label": "【#炎上BURN】Dr. 情趣《#炎上這群人》精華（上）",
-        "yt": "bFrxGJd__g8",
+        "label": "【#炎上徐乃麟】博恩精華",
+        "yt": "fE0DTQR-71A",
         "start": 0
       },
       {
-        "label": "【#炎上BURN】Dr. 情趣《#炎上這群人》精華（下）",
-        "yt": "Zh4JVylSfCg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "id": "burn-wang",
-    "s": "burn",
-    "y": 2023,
-    "zh": "《炎上 BURN》－炎上　王世堅",
-    "en": "BURN: The Roast of Wang Shih-Chien",
-    "min": 77,
-    "type": [
-      "吐槽大會",
-      "Roast"
-    ],
-    "talent": "王世堅、曾博恩、謝龍介、黃瀞瑩、Asiaboy 禁藥王 & Lizi 栗子、凱莉、吳崢、賀瓏、巴大雄、春艷、柯文哲",
-    "dzh": "政壇扶龍王世堅正面對決炎上大將軍及火伴的犀利質詢，經典問政攻防戰將在《炎上 BURN》一觸即發！\n政治人物只會作秀？沒錯！這次就作給你看！\n現場聚集各方人馬，即將掀起一場政壇腥風血雨\n\n《炎上 BURN》回歸，不留情面再探下限！\n\n演出者全員不得要求事先審稿\n允許脫稿！允許爆料！\n更不准有不能被講的地雷底線\n全盤托出檯面下的惡形惡狀\n\n史詩級質詢名場面\n即將在炎上獨家演繹\n\n【炎上　王世堅】\n南北菜蟲，一起串連！",
-    "den": "Politician Wang Shih-Chien takes the hot seat. A household name in Taiwan and a frequent meme subject, he is known for his fiery interrogations and unmistakable presence. Now, the man known for questioning others becomes the one being questioned.",
-    "producer": {
-      "zh": "廖子寧",
-      "en": "Tse Ning Liao"
-    },
-    "trailers": [
-      {
-        "label": "【#炎上王世堅】精華（上）",
-        "yt": "aVEKuLut0p0",
+        "label": "【#炎上徐乃麟】JIM 程建評精華",
+        "yt": "bGOVTRZjfx4",
         "start": 0
       },
       {
-        "label": "【#炎上王世堅】精華（下)",
-        "yt": "ktJXsY6sHag",
+        "label": "【#炎上徐乃麟】徐乃麟精華",
+        "yt": "coW6GiWGT5w",
         "start": 0
       }
     ]
@@ -638,6 +612,37 @@ const TITLES = [
     ]
   },
   {
+    "id": "burn-alisasa",
+    "s": "burn",
+    "y": 2022,
+    "zh": "《炎上 BURN》－炎上　愛莉莎莎",
+    "en": "BURN: The Roast of Alisasa",
+    "min": 83,
+    "type": [
+      "吐槽大會",
+      "Roast"
+    ],
+    "talent": "愛莉莎莎、JIM 程建評、喬瑟夫、賀瓏、王彩樺、阿滴、德仔、酸酸、廚佛瑞德 Fred、大蛇丸",
+    "dzh": "江湖在走，哪有肝膽相照這種事？絕不手下留情的炎上大將軍及火伴們出征自燃系 YouTuber 愛莉莎莎，會在炎上擦出什麼火花？",
+    "den": "Viral YouTuber Alisasa steps into the spotlight. As one of Taiwan’s most controversial figures, her fame and backlash collide, turning public opinion into punchlines—one joke at a time.",
+    "producer": {
+      "zh": "謝政豪",
+      "en": "Hauer Hsieh"
+    },
+    "trailers": [
+      {
+        "label": "【#炎上愛莉莎莎】喬瑟夫精華",
+        "yt": "zvn1rry9vqM",
+        "start": 0
+      },
+      {
+        "label": "【#炎上愛莉莎莎】愛莉莎莎精華",
+        "yt": "ZPLEZvzsyoE",
+        "start": 0
+      }
+    ]
+  },
+  {
     "id": "burn-peng",
     "s": "burn",
     "y": 2022,
@@ -674,68 +679,63 @@ const TITLES = [
     ]
   },
   {
-    "id": "burn-alisasa",
+    "id": "burn-wang",
     "s": "burn",
-    "y": 2022,
-    "zh": "《炎上 BURN》－炎上　愛莉莎莎",
-    "en": "BURN: The Roast of Alisasa",
-    "min": 83,
+    "y": 2023,
+    "zh": "《炎上 BURN》－炎上　王世堅",
+    "en": "BURN: The Roast of Wang Shih-Chien",
+    "min": 77,
     "type": [
       "吐槽大會",
       "Roast"
     ],
-    "talent": "愛莉莎莎、JIM 程建評、喬瑟夫、賀瓏、王彩樺、阿滴、德仔、酸酸、廚佛瑞德 Fred、大蛇丸",
-    "dzh": "江湖在走，哪有肝膽相照這種事？絕不手下留情的炎上大將軍及火伴們出征自燃系 YouTuber 愛莉莎莎，會在炎上擦出什麼火花？",
-    "den": "Viral YouTuber Alisasa steps into the spotlight. As one of Taiwan’s most controversial figures, her fame and backlash collide, turning public opinion into punchlines—one joke at a time.",
+    "talent": "王世堅、曾博恩、謝龍介、黃瀞瑩、Asiaboy 禁藥王 & Lizi 栗子、凱莉、吳崢、賀瓏、巴大雄、春艷、柯文哲",
+    "dzh": "政壇扶龍王世堅正面對決炎上大將軍及火伴的犀利質詢，經典問政攻防戰將在《炎上 BURN》一觸即發！\n政治人物只會作秀？沒錯！這次就作給你看！\n現場聚集各方人馬，即將掀起一場政壇腥風血雨\n\n《炎上 BURN》回歸，不留情面再探下限！\n\n演出者全員不得要求事先審稿\n允許脫稿！允許爆料！\n更不准有不能被講的地雷底線\n全盤托出檯面下的惡形惡狀\n\n史詩級質詢名場面\n即將在炎上獨家演繹\n\n【炎上　王世堅】\n南北菜蟲，一起串連！",
+    "den": "Politician Wang Shih-Chien takes the hot seat. A household name in Taiwan and a frequent meme subject, he is known for his fiery interrogations and unmistakable presence. Now, the man known for questioning others becomes the one being questioned.",
     "producer": {
-      "zh": "謝政豪",
-      "en": "Hauer Hsieh"
+      "zh": "廖子寧",
+      "en": "Tse Ning Liao"
     },
     "trailers": [
       {
-        "label": "【#炎上愛莉莎莎】喬瑟夫精華",
-        "yt": "zvn1rry9vqM",
+        "label": "【#炎上王世堅】精華（上）",
+        "yt": "aVEKuLut0p0",
         "start": 0
       },
       {
-        "label": "【#炎上愛莉莎莎】愛莉莎莎精華",
-        "yt": "ZPLEZvzsyoE",
+        "label": "【#炎上王世堅】精華（下)",
+        "yt": "ktJXsY6sHag",
         "start": 0
       }
     ]
   },
   {
-    "id": "burn-hsu",
+    "id": "burn-tgop",
     "s": "burn",
-    "y": 2021,
-    "zh": "《炎上 BURN》－炎上　徐乃麟",
-    "en": "BURN: The Roast of Hsu Nai-Lin",
-    "min": 102,
+    "y": 2024,
+    "zh": "《炎上 BURN》－炎上　這群人",
+    "en": "BURN: The Roast of TGOP",
+    "min": 110,
     "type": [
       "吐槽大會",
       "Roast"
     ],
-    "talent": "徐乃麟、曾博恩、楊繡惠、龍龍、JIM 程建評、美秀集團 修齊、蕾菈、熊熊、老K、陳大天",
-    "dzh": "江湖在走，哪有肝膽相照這種事？\n綜藝大哥徐乃麟，面對炎上大將軍及火伴們的大膽冒犯，是不是又會輸不起？\n不被審查也不被停播的吐槽大會，臺灣史上最高規格低級喜劇現場演出，挑戰冒犯的底線！",
-    "den": "Taiwanese variety show icon Hsu Nai-Lin takes the hot seat. Known for his larger-than-life personality and competitive streak, he now faces the ultimate test—surviving the heat, one brutal joke at a time.",
+    "talent": "這群人 TGOP（展榮、展瑞、茵聲、董仔、木星、尼克、石頭）、陳大天、唐從聖、鐵牛、黃小柔、楊昇達、酷炫、黃氏兄弟、莫宰羊、Green Father 比杰",
+    "dzh": "百萬 YouTuber 團體「這群人 TGOP」\n停更前的終局之戰\n十三年來所有的恩怨情仇\n將在《炎上 BURN》一次全部算個清楚\n\n這場不留情面的告別式之後\n大家會是彼此祝福、各自安好\n還是永遠不回頭、秒刪你電話\n\n【炎上   這群人】\n一起來送他們最後一程",
+    "den": "With over 3 million subscribers, one of Taiwan’s most influential YouTube groups—TGOP (This Group of People)—takes the hot seat. After more than a decade of content, fame, and internal tensions, they step into the spotlight together to settle everything—one joke at a time.",
     "producer": {
-      "zh": "謝政豪",
-      "en": "Hauer Hsieh"
+      "zh": "劉俊麟",
+      "en": ""
     },
     "trailers": [
       {
-        "label": "【#炎上徐乃麟】博恩精華",
-        "yt": "fE0DTQR-71A",
+        "label": "【#炎上BURN】Dr. 情趣《#炎上這群人》精華（上）",
+        "yt": "bFrxGJd__g8",
         "start": 0
       },
       {
-        "label": "【#炎上徐乃麟】JIM 程建評精華",
-        "yt": "bGOVTRZjfx4",
-        "start": 0
-      },
-      {
-        "label": "【#炎上徐乃麟】徐乃麟精華",
-        "yt": "coW6GiWGT5w",
+        "label": "【#炎上BURN】Dr. 情趣《#炎上這群人》精華（下）",
+        "yt": "Zh4JVylSfCg",
         "start": 0
       }
     ]
@@ -983,7 +983,7 @@ const LETS_TALK = [
   { obj: "invest", zh: "想投資已經有觀眾買單的中文喜劇內容", en: "Want to invest in Mandarin comedy with a proven audience" },
   { obj: "copro", zh: "有喜劇企劃，卻缺乏團隊或資金製作", en: "Have a comedy idea but lack the team or funding to make it happen" },
   { obj: "copro", zh: "想為品牌或平台打造一檔原創喜劇節目", en: "Want an original comedy show for your brand or platform" },
-  { obj: "acq", zh: "想邀請喜劇演員到你的城市演出，或想在台灣舉辦演出", en: "Want to bring comedians to your city, or tour your show in Taiwan" },
+  { obj: "acq", zh: "想邀請喜劇演員到你的城市演出，或想在臺灣舉辦演出", en: "Want to bring comedians to your city, or tour your show in Taiwan" },
   { obj: "acq", zh: "你的平台還缺一點笑聲", en: "Need more comedy on your platform" },
   { obj: "other", zh: "有其他合作想法", en: "Have something else in mind" },
 ];
